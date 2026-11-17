@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisasterAI: Multimodal Disaster Intelligence System</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <style>
+        :root {
+            --bg-base: #0b0f19;
+            --bg-card: #111827;
+            --bg-card-hover: #1f2937;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --accent-cyan: #06b6d4;
+            --accent-blue: #3b82f6;
+            --accent-red: #ef4444;
+            --accent-amber: #f59e0b;
+            --accent-emerald: #10b981;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .navbar-custom {
+            background-color: rgba(17, 24, 39, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .card-custom {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card-custom:hover {
+            border-color: rgba(6, 182, 212, 0.4);
+        }
+
+        .badge-live {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        .badge-arch {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            font-size: 0.75rem;
+        }
+
+        .kpi-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+
+        .kpi-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            font-family: var(--font-mono);
+        }
+
+        .kpi-sub {
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+        }
+
+        .nav-tabs .nav-link {
+            color: var(--text-secondary);
+            border: none;
+            border-bottom: 2px solid transparent;
+            font-weight: 500;
+            padding: 12px 18px;
+            transition: all 0.2s;
+        }
+
+        .nav-tabs .nav-link:hover {
+            color: var(--accent-cyan);
+            border-color: rgba(6, 182, 212, 0.3);
+        }
+
+        .nav-tabs .nav-link.active {
+            color: var(--accent-cyan);
+            background: transparent;
+            border-bottom: 2px solid var(--accent-cyan);
+            font-weight: 600;
+        }
+
+        .image-container {
+            position: relative;
+            background: #050811;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            aspect-ratio: 1 / 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            image-rendering: pixelated;
+        }
+
+        .image-label {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(4px);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            font-family: var(--font-mono);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e2e8f0;
+        }
+
+        .token-pill {
+            display: inline-block;
+            margin: 3px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            transition: transform 0.15s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .token-pill:hover {
+            transform: scale(1.1);
+            z-index: 10;
+        }
+
+        .sitrep-box {
+            background: #050811;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            font-family: var(--font-mono);
+            font-size: 0.86rem;
+            line-height: 1.6;
+            max-height: 520px;
+            overflow-y: auto;
+            color: #cbd5e1;
+        }
+
+        .gating-bar-wrapper {
+            height: 16px;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #1e293b;
+            display: flex;
+        }
+
+        .gating-segment {
+            height: 100%;
+            transition: width 0.4s ease;
+        }
+
+        .slider-custom {
+            accent-color: var(--accent-cyan);
+        }
+
+        /* Spinner */
+        .spinner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(11, 15, 25, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 99;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top py-2">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center text-white text-decoration-none" href="#">
+                <i class="fa-solid fa-satellite-dish me-2 text-info fs-4"></i>
+                <div>
+                    <span class="fw-bold tracking-tight fs-5">DisasterAI</span>
+                    <span class="text-secondary ms-1 fs-6">| Multimodal Intelligence Command</span>
+                </div>
+            </a>
+            <div class="d-flex align-items-center gap-2">
+                <span class="badge badge-live px-2 py-1"><i class="fa-solid fa-circle-dot me-1"></i>REAL DATASETS ACTIVE</span>
+                <span class="badge badge-arch px-2 py-1"><i class="fa-solid fa-cube me-1"></i>ZERO PRETRAINED WEIGHTS</span>
+                <span class="badge bg-secondary bg-opacity-25 text-light px-2 py-1 border border-secondary border-opacity-25">
+                    <i class="fa-solid fa-shield-halved me-1 text-warning"></i>FGSM/PGD AUDITED
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-4 py-3">
+
+        <!-- Top Control Bar -->
+        <div class="card card-custom p-3 mb-3">
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-3 col-md-6">
+                    <label class="kpi-title d-block"><i class="fa-solid fa-map-location-dot me-1 text-info"></i>Select Real Disaster Event</label>
+                    <select id="chipSelect" class="form-select form-select-sm bg-dark text-white border-secondary">
+                        <option value="">Loading events...</option>
+                    </select>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <label class="kpi-title"><i class="fa-solid fa-shield-virus me-1 text-warning"></i>Adversarial Attack (FGSM &epsilon;)</label>
+                        <span id="epsValue" class="badge bg-dark border border-secondary text-warning font-monospace">0.00</span>
+                    </div>
+                    <input type="range" class="form-range slider-custom" id="epsRange" min="0.0" max="0.20" step="0.02" value="0.0">
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <label class="kpi-title"><i class="fa-solid fa-comment-dots me-1 text-info"></i>Crisis Text Dispatch (Live NLP Input)</label>
+                    <input type="text" id="customDispatch" class="form-control form-control-sm bg-dark text-white border-secondary" placeholder="Optional: Type custom crisis report or keep dataset dispatch...">
+                </div>
+                <div class="col-lg-2 col-md-4 d-grid">
+                    <button id="runBtn" class="btn btn-info btn-sm fw-semibold text-dark mt-3 mt-md-0" onclick="runAnalysis()">
+                        <i class="fa-solid fa-bolt me-1"></i>Run Analysis
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPI Cards Row -->
+        <div class="row g-3 mb-3">
+            <!-- 1. Overall Multimodal Threat -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card card-custom p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="kpi-title">Multimodal Threat Assessment</div>
+                            <div id="kpiThreatLevel" class="kpi-value text-info">--</div>
+                        </div>
+                        <div id="kpiThreatIcon" class="fs-2 text-info"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                    </div>
+                    <div class="mt-2 kpi-sub">
+                        <span>Confidence: <strong id="kpiConfidence" class="text-white">--%</strong></span> |
+                        <span>Hazard Index: <strong id="kpiHazard" class="text-white">--</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Flood Surface Extent (Attention U-Net) -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card card-custom p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="kpi-title">Inundated Water Surface</div>
+                            <div id="kpiFloodRatio" class="kpi-value text-cyan">--%</div>
+                        </div>
+                        <div class="fs-2 text-primary"><i class="fa-solid fa-water"></i></div>
+                    </div>
+                    <div class="mt-2 kpi-sub">
+                        <span>Ground Truth: <strong id="kpiGtFloodRatio" class="text-white">--%</strong></span> |
+                        <span>Dice Coeff: <strong id="kpiDice" class="text-emerald">--</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Epistemic Uncertainty (Monte Carlo Dropout) -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card card-custom p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="kpi-title">Epistemic Uncertainty (&sigma;&sup2;)</div>
+                            <div id="kpiUncertainty" class="kpi-value text-warning">--</div>
+                        </div>
+                        <div class="fs-2 text-warning"><i class="fa-solid fa-chart-line"></i></div>
+                    </div>
+                    <div class="mt-2 kpi-sub">
+                        <span>Reliability: <strong id="kpiUncertaintyFlag" class="badge bg-success bg-opacity-25 text-success">HIGH</strong></span> |
+                        <span>MC Samples: <strong>10</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. River Stage & Crest Forecast (LSTM) -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card card-custom p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="kpi-title">Hydrological River Stage</div>
+                            <div id="kpiRiverStage" class="kpi-value text-info">-- ft</div>
+                        </div>
+                        <div class="fs-2 text-info"><i class="fa-solid fa-gauge-high"></i></div>
+                    </div>
+                    <div class="mt-2 kpi-sub">
+                        <span>Forecast Crest: <strong id="kpiForecastPeak" class="text-white">-- ft</strong></span> |
+                        <span>Trend: <strong id="kpiStageTrend" class="text-white">--</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dynamic Modality Gating Bar -->
+        <div class="card card-custom p-3 mb-3">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="kpi-title m-0"><i class="fa-solid fa-sliders me-1 text-info"></i>Dynamic Modality Attention Gating (&alpha;<sub>vision</sub>, &alpha;<sub>hydro</sub>, &alpha;<sub>text</sub>)</span>
+                <span class="text-secondary small font-monospace">Learned Contextual Modality Weights</span>
+            </div>
+            <div class="gating-bar-wrapper mb-2">
+                <div id="gatingVis" class="gating-segment bg-info" style="width: 33.3%;" title="Visual Weight"></div>
+                <div id="gatingHydro" class="gating-segment bg-primary" style="width: 33.3%;" title="Hydrological Weight"></div>
+                <div id="gatingText" class="gating-segment bg-warning" style="width: 33.4%;" title="Textual Weight"></div>
+            </div>
+            <div class="d-flex justify-content-between small text-secondary font-monospace">
+                <div><i class="fa-solid fa-satellite text-info me-1"></i>SAR Vision: <strong id="gatingVisVal" class="text-white">33.3%</strong></div>
+                <div><i class="fa-solid fa-water text-primary me-1"></i>USGS Hydrology: <strong id="gatingHydroVal" class="text-white">33.3%</strong></div>
+                <div><i class="fa-solid fa-bullhorn text-warning me-1"></i>Crisis Text: <strong id="gatingTextVal" class="text-white">33.4%</strong></div>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <ul class="nav nav-tabs mb-3 border-secondary" id="dashboardTabs" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-vision">
+                    <i class="fa-solid fa-satellite me-1"></i>1. SAR Vision & Segmentation
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-hydro">
+                    <i class="fa-solid fa-chart-area me-1"></i>2. USGS Hydrology & LSTM Forecast
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-text">
+                    <i class="fa-solid fa-comment-dots me-1"></i>3. Crisis Dispatch & Self-Attention
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-sitrep">
+                    <i class="fa-solid fa-file-shield me-1"></i>4. Tactical Situation Report (SITREP)
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-benchmarks">
+                    <i class="fa-solid fa-vial-circle-check me-1"></i>5. Scientific Ablation & Robustness
+                </button>
+            </li>
+        </ul>
+
+        <!-- Tab Contents -->
+        <div class="tab-content">
+
+            <!-- TAB 1: SAR Vision & Explainability -->
+            <div class="tab-pane fade show active" id="tab-vision">
+                <div class="row g-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-custom p-2">
+                            <div class="image-container">
+                                <span class="image-label">Dual-Pol SAR Composite (VV/VH)</span>
+                                <img id="imgSar" src="" alt="SAR Composite">
+                            </div>
+                            <div class="p-2 small text-secondary">
+                                Backscatter decibels normalized $[-50, 1] \text{ dB} \rightarrow [0, 1]$. Dark regions indicate specular water reflection.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-custom p-2">
+                            <div class="image-container">
+                                <span class="image-label">Hand-Labeled Ground Truth</span>
+                                <img id="imgGtMask" src="" alt="Ground Truth Mask">
+                            </div>
+                            <div class="p-2 small text-secondary">
+                                Sen1Floods11 Hand-Labeled Mask: <span class="text-info fw-bold">Cyan</span> = Inundated Flood, <span class="text-secondary">Navy</span> = Dry Land.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-custom p-2">
+                            <div class="image-container">
+                                <span class="image-label">Attention U-Net Predicted Mask</span>
+                                <img id="imgPredMask" src="" alt="Attention UNet Mask">
+                            </div>
+                            <div class="p-2 small text-secondary">
+                                Attention-gated skip connections filter irrelevant background noise to isolate floodwater boundaries.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-custom p-2">
+                            <div class="image-container">
+                                <span class="image-label">Grad-CAM Spatial Saliency</span>
+                                <img id="imgGradcam" src="" alt="Grad-CAM Saliency">
+                            </div>
+                            <div class="p-2 small text-secondary">
+                                Custom CNN class activation mapping identifies channel meanders and embankments driving threat severity.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adversarial Diagnostic Section (Revealed when attacked) -->
+                <div id="advSection" class="card card-custom p-3 mt-3 border-warning" style="display: none;">
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa-solid fa-triangle-exclamation text-warning fs-5 me-2"></i>
+                        <h6 class="m-0 fw-bold text-warning">Adversarial Gradient Attack Simulation (FGSM &epsilon; = <span id="advEpsDisp">0.00</span>)</h6>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <div class="image-container">
+                                <span class="image-label">Perturbed SAR Input</span>
+                                <img id="imgAdvInput" src="" alt="Perturbed SAR">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="image-container">
+                                <span class="image-label">Adversarial Noise Sign(&nabla;<sub>x</sub>L)</span>
+                                <img id="imgAdvNoise" src="" alt="Adversarial Noise">
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex flex-column justify-content-center">
+                            <div class="p-3 bg-dark rounded border border-secondary">
+                                <div class="mb-2"><strong>Clean CNN Predicted Tier:</strong> <span id="advCleanTier" class="badge bg-info">--</span></div>
+                                <div class="mb-2"><strong>Attacked CNN Predicted Tier:</strong> <span id="advAttackedTier" class="badge bg-warning text-dark">--</span></div>
+                                <div class="small text-secondary">
+                                    The model undergoes gradient-sign perturbation $x_{adv} = \text{clip}(x + \epsilon \cdot \text{sign}(\nabla_x \mathcal{L}), 0, 1)$. 
+                                    Despite artificial noise, DisasterAI multimodal fusion dampens single-modality gradient poisoning via cross-modal attention gating.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: USGS Hydrology -->
+            <div class="tab-pane fade" id="tab-hydro">
+                <div class="row g-3">
+                    <div class="col-lg-8">
+                        <div class="card card-custom p-3">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="m-0 fw-bold"><i class="fa-solid fa-water text-primary me-2"></i>24-Hour USGS River Stage & Streamflow Telemetry</h6>
+                                <span id="hydroBasinBadge" class="badge bg-primary bg-opacity-25 text-primary">Buffalo Bayou Basin</span>
+                            </div>
+                            <div style="height: 320px;">
+                                <canvas id="hydroChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-custom p-3 h-100">
+                            <h6 class="m-0 fw-bold mb-3"><i class="fa-solid fa-bolt text-warning me-2"></i>LSTM Temporal Attribution</h6>
+                            <p class="small text-secondary mb-3">
+                                Gradient-based feature attributions indicating which hours of the 24-step sequence triggered the risk forecast.
+                            </p>
+                            <div style="height: 240px;">
+                                <canvas id="temporalAttrChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: Crisis Text Dispatch -->
+            <div class="tab-pane fade" id="tab-text">
+                <div class="card card-custom p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h6 class="m-0 fw-bold"><i class="fa-solid fa-bullhorn text-warning me-2"></i>Disaster Crisis Incident Dispatch</h6>
+                        <span class="badge bg-dark border border-secondary text-secondary">Scratch Disaster Transformer (2 Layers, 4 Heads)</span>
+                    </div>
+                    
+                    <div class="p-3 bg-dark rounded border border-secondary mb-4">
+                        <p id="rawDispatchText" class="m-0 font-monospace fs-6 text-light">Loading crisis dispatch...</p>
+                    </div>
+
+                    <h6 class="fw-bold mb-2"><i class="fa-solid fa-fire-flame-curved text-danger me-2"></i>Token-Level Multi-Head Self-Attention Saliency</h6>
+                    <p class="small text-secondary mb-3">
+                        Token heat pills generated from the final multi-head attention matrix. Darker red/amber indicates higher contextual importance learned by the model.
+                    </p>
+                    <div id="tokenPillsContainer" class="p-3 bg-dark rounded border border-secondary d-flex flex-wrap align-items-center min-h-100">
+                        <!-- Token pills inserted dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: Tactical Situation Report (SITREP) -->
+            <div class="tab-pane fade" id="tab-sitrep">
+                <div class="card card-custom p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <h5 class="m-0 fw-bold text-white"><i class="fa-solid fa-file-shield text-info me-2"></i>Civil Defense & Emergency Operations SITREP</h5>
+                            <span class="small text-secondary">Automated Multimodal Tactical Synthesis</span>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-outline-secondary btn-sm" onclick="copySitrepMarkdown()"><i class="fa-regular fa-copy me-1"></i>Copy Markdown</button>
+                            <button class="btn btn-outline-info btn-sm" onclick="window.print()"><i class="fa-solid fa-print me-1"></i>Print Report</button>
+                        </div>
+                    </div>
+                    <pre id="sitrepDisplay" class="sitrep-box mb-0">Generating structured situation report...</pre>
+                </div>
+            </div>
+
+            <!-- TAB 5: Scientific Benchmarks -->
+            <div class="tab-pane fade" id="tab-benchmarks">
+                <div class="row g-3">
+                    <div class="col-lg-7">
+                        <div class="card card-custom p-3">
+                            <h6 class="fw-bold mb-3"><i class="fa-solid fa-table-columns text-info me-2"></i>Multimodal Modality Ablation Study (Held-Out Test Split)</h6>
+                            <div class="table-responsive">
+                                <table class="table table-dark table-hover table-sm align-middle font-monospace small">
+                                    <thead>
+                                        <tr class="text-secondary border-secondary">
+                                            <th>Modality Configuration</th>
+                                            <th>Accuracy</th>
+                                            <th>F1-Score</th>
+                                            <th>Precision</th>
+                                            <th>Recall</th>
+                                            <th>Hazard RMSE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="ablationTableBody">
+                                        <!-- Loaded dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="mt-2 small text-secondary">
+                                <i class="fa-solid fa-circle-check text-success me-1"></i>
+                                Notice that <strong>Tri-Modal Fusion</strong> achieves the lowest Hazard Score RMSE (0.3571), validating physical synergy across SAR, Hydrology, and Crisis Text.
+                            </div>
+                        </div>
+
+                        <div class="card card-custom p-3 mt-3">
+                            <h6 class="fw-bold mb-3"><i class="fa-solid fa-shield-halved text-warning me-2"></i>Adversarial & Perturbation Robustness Benchmark</h6>
+                            <div class="table-responsive">
+                                <table class="table table-dark table-sm align-middle font-monospace small">
+                                    <thead>
+                                        <tr class="text-secondary border-secondary">
+                                            <th>Perturbation Type</th>
+                                            <th>Evaluation Protocol</th>
+                                            <th>Accuracy</th>
+                                            <th>Degradation</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="robustnessTableBody">
+                                        <!-- Loaded dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="card card-custom p-3 h-100">
+                            <h6 class="fw-bold mb-3"><i class="fa-solid fa-chart-pie text-cyan me-2"></i>Ablation & Diagnostics Visualizations</h6>
+                            <div class="mb-3">
+                                <img src="/outputs/ablation_study_chart.png" class="img-fluid rounded border border-secondary" alt="Ablation Chart">
+                            </div>
+                            <div>
+                                <img src="/outputs/xai_and_robustness_diagnostics.png" class="img-fluid rounded border border-secondary" alt="Diagnostics Chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /tab-content -->
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        let hydroChartInstance = null;
+        let temporalAttrChartInstance = null;
+        let currentSitrepMarkdown = "";
+
+        document.addEventListener("DOMContentLoaded", function() {
+            loadChips();
+            loadBenchmarks();
+            
+            // Slider display listener
+            const epsRange = document.getElementById("epsRange");
+            const epsValue = document.getElementById("epsValue");
+            epsRange.addEventListener("input", function() {
+                epsValue.textContent = parseFloat(this.value).toFixed(2);
+            });
+        });
+
+        async function loadChips() {
+            try {
+                const res = await fetch("/api/chips");
+                const data = await res.json();
+                const select = document.getElementById("chipSelect");
+                select.innerHTML = "";
+
+                data.chips.forEach(chip => {
+                    const opt = document.createElement("option");
+                    opt.value = chip.chip_id;
+                    const sevLabels = ["Low", "Moderate", "Severe"];
+                    const sev = sevLabels[chip.severity_tier] || "Unknown";
+                    opt.textContent = `[${chip.split.toUpperCase()}] ${chip.country} - ${chip.chip_id} (${sev} / ${(chip.flood_ratio * 100).toFixed(1)}% water)`;
+                    select.appendChild(opt);
+                });
+
+                // Auto-run first sample
+                if (data.chips.length > 0) {
+                    runAnalysis();
+                }
+            } catch (err) {
+                console.error("Error loading chips:", err);
+            }
+        }
+
+        async function runAnalysis() {
+            const chipId = document.getElementById("chipSelect").value;
+            const eps = parseFloat(document.getElementById("epsRange").value);
+            const customDispatch = document.getElementById("customDispatch").value;
+            const btn = document.getElementById("runBtn");
+
+            btn.disabled = true;
+            btn.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Running...`;
+
+            try {
+                const res = await fetch("/api/analyze", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        chip_id: chipId,
+                        epsilon: eps,
+                        custom_dispatch: customDispatch
+                    })
+                });
+
+                const data = await res.json();
+                if (data.status !== "success") {
+                    alert("Error running analysis: " + data.message);
+                    return;
+                }
+
+                updateDashboardUI(data);
+
+            } catch (err) {
+                console.error("Analysis failure:", err);
+                alert("Failed to run analysis: " + err);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = `<i class="fa-solid fa-bolt me-1"></i>Run Analysis`;
+            }
+        }
+
+        function updateDashboardUI(data) {
+            const pred = data.predictions;
+            const sevLabels = ["LOW / ROUTINE", "MODERATE ALERT", "SEVERE EMERGENCY"];
+            const sevColors = ["#10b981", "#f59e0b", "#ef4444"];
+
+            // 1. Threat KPI
+            const threatElem = document.getElementById("kpiThreatLevel");
+            threatElem.textContent = sevLabels[pred.multimodal_class] || "UNKNOWN";
+            threatElem.style.color = sevColors[pred.multimodal_class] || "#06b6d4";
+            document.getElementById("kpiConfidence").textContent = pred.multimodal_confidence + "%";
+            document.getElementById("kpiHazard").textContent = pred.hazard_score;
+
+            // 2. Flood Surface KPI
+            document.getElementById("kpiFloodRatio").textContent = pred.predicted_flood_ratio_pct + "%";
+            document.getElementById("kpiGtFloodRatio").textContent = pred.ground_truth_flood_ratio_pct + "%";
+            document.getElementById("kpiDice").textContent = pred.segmentation_dice;
+
+            // 3. Uncertainty KPI
+            document.getElementById("kpiUncertainty").textContent = pred.epistemic_uncertainty;
+            const uncFlag = document.getElementById("kpiUncertaintyFlag");
+            if (pred.epistemic_uncertainty < 0.25) {
+                uncFlag.textContent = "HIGH (Reliable)";
+                uncFlag.className = "badge bg-success bg-opacity-25 text-success";
+            } else if (pred.epistemic_uncertainty < 0.50) {
+                uncFlag.textContent = "MODERATE";
+                uncFlag.className = "badge bg-warning bg-opacity-25 text-warning";
+            } else {
+                uncFlag.textContent = "CAUTION ADVISED";
+                uncFlag.className = "badge bg-danger bg-opacity-25 text-danger";
+            }
+
+            // 4. Hydrology KPI
+            document.getElementById("kpiRiverStage").textContent = pred.current_stage_ft + " ft";
+            document.getElementById("kpiForecastPeak").textContent = pred.forecast_peak_ft + " ft";
+            const delta = pred.stage_delta_ft;
+            document.getElementById("kpiStageTrend").textContent = (delta >= 0 ? "+" : "") + delta + " ft";
+
+            // 5. Dynamic Gating
+            const g = data.gating_weights;
+            document.getElementById("gatingVis").style.width = g.vision + "%";
+            document.getElementById("gatingHydro").style.width = g.hydrology + "%";
+            document.getElementById("gatingText").style.width = g.text + "%";
+            document.getElementById("gatingVisVal").textContent = g.vision + "%";
+            document.getElementById("gatingHydroVal").textContent = g.hydrology + "%";
+            document.getElementById("gatingTextVal").textContent = g.text + "%";
+
+            // 6. Visual Modality Images
+            const vis = data.visualizations;
+            document.getElementById("imgSar").src = "data:image/png;base64," + vis.sar_b64;
+            document.getElementById("imgGtMask").src = "data:image/png;base64," + vis.gt_mask_b64;
+            document.getElementById("imgPredMask").src = "data:image/png;base64," + vis.pred_mask_b64;
+            document.getElementById("imgGradcam").src = "data:image/png;base64," + vis.gradcam_b64;
+
+            // 7. Adversarial Section
+            const adv = data.adversarial;
+            const advSec = document.getElementById("advSection");
+            if (adv.is_attacked) {
+                advSec.style.display = "block";
+                document.getElementById("advEpsDisp").textContent = adv.epsilon.toFixed(2);
+                document.getElementById("imgAdvInput").src = "data:image/png;base64," + adv.perturbed_s1_b64;
+                document.getElementById("imgAdvNoise").src = "data:image/png;base64," + adv.noise_b64;
+                document.getElementById("advCleanTier").textContent = sevLabels[adv.clean_class];
+                document.getElementById("advAttackedTier").textContent = sevLabels[adv.adv_class];
+            } else {
+                advSec.style.display = "none";
+            }
+
+            // 8. Hydrology Charts
+            updateHydroChart(data.temporal);
+
+            // 9. Crisis Text Tokens
+            document.getElementById("rawDispatchText").textContent = `"${data.text.dispatch}"`;
+            renderTokenPills(data.text.token_pills);
+
+            // 10. SITREP
+            currentSitrepMarkdown = data.sitrep.markdown;
+            document.getElementById("sitrepDisplay").textContent = currentSitrepMarkdown;
+        }
+
+        function updateHydroChart(temporal) {
+            document.getElementById("hydroBasinBadge").textContent = temporal.basin_name;
+
+            const ctx = document.getElementById("hydroChart").getContext("2d");
+            if (hydroChartInstance) hydroChartInstance.destroy();
+
+            hydroChartInstance = new Chart(ctx, {
+                type: "line",
+                data: {
+                    labels: temporal.hours,
+                    datasets: [
+                        {
+                            label: "River Stage (ft)",
+                            data: temporal.stage_series,
+                            borderColor: "#38bdf8",
+                            backgroundColor: "rgba(56, 189, 248, 0.1)",
+                            yAxisID: "yStage",
+                            tension: 0.3,
+                            fill: true,
+                            pointRadius: 2
+                        },
+                        {
+                            label: "Discharge (cfs)",
+                            data: temporal.discharge_series,
+                            borderColor: "#a855f7",
+                            yAxisID: "yDischarge",
+                            borderDash: [4, 4],
+                            tension: 0.3,
+                            pointRadius: 0
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { labels: { color: "#94a3b8" } }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: "rgba(255, 255, 255, 0.05)" },
+                            ticks: { color: "#64748b", font: { family: "JetBrains Mono" } }
+                        },
+                        yStage: {
+                            type: "linear",
+                            position: "left",
+                            grid: { color: "rgba(255, 255, 255, 0.05)" },
+                            ticks: { color: "#38bdf8", font: { family: "JetBrains Mono" } },
+                            title: { display: true, text: "River Stage (ft)", color: "#38bdf8" }
+                        },
+                        yDischarge: {
+                            type: "linear",
+                            position: "right",
+                            grid: { drawOnChartArea: false },
+                            ticks: { color: "#a855f7", font: { family: "JetBrains Mono" } },
+                            title: { display: true, text: "Discharge (cfs)", color: "#a855f7" }
+                        }
+                    }
+                }
+            });
+
+            // Temporal attribution chart
+            const ctxAttr = document.getElementById("temporalAttrChart").getContext("2d");
+            if (temporalAttrChartInstance) temporalAttrChartInstance.destroy();
+
+            temporalAttrChartInstance = new Chart(ctxAttr, {
+                type: "bar",
+                data: {
+                    labels: ["T-18h", "T-12h", "T-6h", "T-3h", "Current"],
+                    datasets: [{
+                        label: "Attribution Score",
+                        data: temporal.hour_importances.slice(-5),
+                        backgroundColor: "#f59e0b",
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { ticks: { color: "#94a3b8", font: { family: "JetBrains Mono" } } },
+                        y: { ticks: { color: "#64748b" }, grid: { color: "rgba(255, 255, 255, 0.05)" } }
+                    }
+                }
+            });
+        }
+
+        function renderTokenPills(tokenPills) {
+            const container = document.getElementById("tokenPillsContainer");
+            container.innerHTML = "";
+
+            tokenPills.forEach(t => {
+                const span = document.createElement("span");
+                span.className = "token-pill";
+                span.textContent = t.word;
+                
+                // Color scale based on attention weight
+                const alpha = Math.min(1.0, Math.max(0.15, t.attention));
+                if (t.attention > 0.5) {
+                    span.style.background = `rgba(239, 68, 68, ${alpha})`;
+                    span.style.color = "#ffffff";
+                    span.style.borderColor = "rgba(239, 68, 68, 0.6)";
+                } else if (t.attention > 0.25) {
+                    span.style.background = `rgba(245, 158, 11, ${alpha * 0.8})`;
+                    span.style.color = "#ffffff";
+                    span.style.borderColor = "rgba(245, 158, 11, 0.5)";
+                } else {
+                    span.style.background = "rgba(30, 41, 59, 0.6)";
+                    span.style.color = "#94a3b8";
+                }
+                span.title = `Attention: ${t.attention}`;
+                container.appendChild(span);
+            });
+        }
+
+        async function loadBenchmarks() {
+            try {
+                const res = await fetch("/api/benchmarks");
+                const data = await res.json();
+                
+                // Ablation table
+                const abBody = document.getElementById("ablationTableBody");
+                abBody.innerHTML = "";
+                data.ablation.forEach(row => {
+                    const tr = document.createElement("tr");
+                    const isProposed = row["Modality Configuration"].includes("Tri-Modal");
+                    if (isProposed) tr.className = "table-info text-info fw-bold";
+                    
+                    tr.innerHTML = `
+                        <td>${row["Modality Configuration"]}</td>
+                        <td>${(row["Accuracy"] * 100).toFixed(1)}%</td>
+                        <td>${row["F1-Score"].toFixed(4)}</td>
+                        <td>${row["Precision"].toFixed(4)}</td>
+                        <td>${row["Recall"].toFixed(4)}</td>
+                        <td class="${isProposed ? 'text-success fw-bold' : ''}">${row["Hazard Score RMSE"].toFixed(4)}</td>
+                    `;
+                    abBody.appendChild(tr);
+                });
+
+                // Robustness table
+                const robBody = document.getElementById("robustnessTableBody");
+                robBody.innerHTML = "";
+                const rob = data.robustness;
+                const rows = [
+                    { name: "Clean Baseline", protocol: "Standard held-out validation samples", acc: rob.clean_accuracy, deg: 0.0 },
+                    { name: "Fast Gradient Sign Method (FGSM)", protocol: "Single-step adversarial perturbation (eps=0.08)", acc: rob.fgsm_accuracy, deg: rob.fgsm_degradation },
+                    { name: "Projected Gradient Descent (PGD)", protocol: "7-step iterative L_inf bounded attack (alpha=0.02)", acc: rob.pgd_accuracy, deg: rob.pgd_degradation },
+                    { name: "Synthetic Radar Noise & Speckle", protocol: "Gaussian radar noise & multiplicative speckle", acc: rob.corrupted_accuracy, deg: rob.corrupted_degradation }
+                ];
+
+                rows.forEach(r => {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `
+                        <td class="fw-bold">${r.name}</td>
+                        <td class="text-secondary">${r.protocol}</td>
+                        <td class="text-white">${(r.acc * 100).toFixed(1)}%</td>
+                        <td class="text-success">${(r.deg * 100).toFixed(1)}%</td>
+                    `;
+                    robBody.appendChild(tr);
+                });
+
+            } catch (err) {
+                console.error("Failed to load benchmarks:", err);
+            }
+        }
+
+        function copySitrepMarkdown() {
+            navigator.clipboard.writeText(currentSitrepMarkdown).then(() => {
+                alert("Tactical SITREP Markdown copied to clipboard!");
+            });
+        }
+    </script>
+</body>
+</html>

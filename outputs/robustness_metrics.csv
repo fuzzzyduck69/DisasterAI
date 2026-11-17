@@ -1,0 +1,2 @@
+clean_accuracy,fgsm_accuracy,pgd_accuracy,corrupted_accuracy,fgsm_degradation,pgd_degradation,corrupted_degradation
+0.6818,0.1364,0.0455,0.1364,0.5455,0.6364,0.5455

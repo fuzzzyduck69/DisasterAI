@@ -1,0 +1,9 @@
+{
+  "clean_accuracy": 0.6818,
+  "fgsm_accuracy": 0.1364,
+  "pgd_accuracy": 0.0455,
+  "corrupted_accuracy": 0.1364,
+  "fgsm_degradation": 0.5455,
+  "pgd_degradation": 0.6364,
+  "corrupted_degradation": 0.5455
+}

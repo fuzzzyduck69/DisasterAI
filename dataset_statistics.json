@@ -1,0 +1,37 @@
+{
+  "total_sar_chips": 102,
+  "sar_splits": {
+    "train": 61,
+    "test": 22,
+    "val": 19
+  },
+  "sar_severity": {
+    "0": 63,
+    "1": 20,
+    "2": 19
+  },
+  "sar_countries": 11,
+  "total_crisis_reports": 827,
+  "text_splits": {
+    "train": 567,
+    "test": 140,
+    "val": 120
+  },
+  "text_severity": {
+    "0": 626,
+    "1": 67,
+    "2": 134
+  },
+  "total_hydrology_sequences": 14216,
+  "hydrology_splits": {
+    "train": 10013,
+    "test": 2102,
+    "val": 2101
+  },
+  "hydrology_severity": {
+    "0": 10858,
+    "1": 2675,
+    "2": 683
+  },
+  "hydrology_stations": 8
+}

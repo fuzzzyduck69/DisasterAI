@@ -1,0 +1,829 @@
+id,clean_text,word_count,severity_tier,split,keyword,location,severity_definition
+5,all residents asked to 'shelter in place' are being notified by officers . no other evacuation or shelter in place orders are expected,23,2,val,,,keyword_rule_weak_label
+6,"13 , 000 people receive wildfires evacuation orders in california",10,2,train,,,keyword_rule_weak_label
+10,"flood disaster heavy rain causes flash flooding of streets in manitou , colorado springs areas",15,1,val,,,keyword_rule_weak_label
+14,there's an emergency evacuation happening now in the building across the street,12,2,test,,,keyword_rule_weak_label
+17,haha south tampa is getting flooded hah- wait a second i live in south tampa what am i gonna do what am i gonna do fvck flooding,27,0,val,,,keyword_rule_weak_label
+18,raining flooding florida tampabay tampa 18 or 19 days . i've lost count,13,0,train,,,keyword_rule_weak_label
+19,flood in bago myanmar we arrived bago,7,0,train,,,keyword_rule_weak_label
+251,leading emergency services boss welcomes new ambulance charity,8,0,test,ambulance,"New Orleans, LA",keyword_rule_weak_label
+347,maybe we should call israel and tell them we're sorry are pres has sold them down the river to annihilation .,21,0,val,annihilation,,keyword_rule_weak_label
+349,u . s national park services tonto national forest: stop the annihilation of the salt river wild horse . . . via,22,0,test,annihilation,,keyword_rule_weak_label
+361,please check into salt river horses help stop the annihilation about to happen without 54000 more signatures . change . org thx,22,0,test,annihilation,CA physically- Boston Strong?,keyword_rule_weak_label
+381,stop the annihilation of the salt river wild horses ! via,11,0,train,annihilation,"Ljubljana, Slovenia",keyword_rule_weak_label
+432,there's a storm over cairo in the latest 'x-men apocalypse' set photo via,13,0,train,apocalypse,Buffalo NY,keyword_rule_weak_label
+440,the latest from reveals storm is a queen in apocalypse,10,0,val,apocalypse,,keyword_rule_weak_label
+471,vladimir putin issues major warning but is it too late to escape armageddon ?,14,1,train,armageddon,"Florida, USA",keyword_rule_weak_label
+490,paul craig roberts vladimir putin issues major warning but is it too late to escape a brics roberts russia,19,1,train,armageddon,,keyword_rule_weak_label
+536,potus appoints brig . gen . richard g . kaiser as member of the mississippi river commission . learn more about the mrc:,23,0,train,army,"Washington, DC",keyword_rule_weak_label
+895,volunteers needed to participate in emergency preparedness drill simulating a bioterrorism disaster:,12,0,train,bioterrorism,"Hudson Valley, NY",keyword_rule_weak_label
+1626,storm in ri worse than last hurricane . my city&3others hardest hit . my yard looks like it was bombed . around 20000k still without power,26,0,train,bombed,"Warwick, RI @Dollarocracy also",keyword_rule_weak_label
+1673,australia's ashes disaster - how the collapse unfolded at trent bridge . . . cricket,15,2,test,bridge%20collapse,,keyword_rule_weak_label
+1702,australia's ashes disaster - how the collapse unfolded at trent bridge - telegraph,13,2,train,bridge%20collapse,UK,keyword_rule_weak_label
+1791,just in: kenya: several buildings are reported to be on fire close to dam estate langata at 2:22pm .,19,0,test,buildings%20on%20fire,"Nigeria, Global",keyword_rule_weak_label
+1811,now on wsls: fire burns multiple buildings in montgomery co tips to make childcare less expensive & rain . join,20,0,train,buildings%20on%20fire,"Roanoke, VA",keyword_rule_weak_label
+1817,17 people displaced after 3-alarm fire tore through 2 apartment buildings on second street in manchester . -- mht,19,0,train,buildings%20on%20fire,New Hampshire,keyword_rule_weak_label
+1861,mad river complex fires have burned 14028 acres 8% contained: the mad river complex fires in trinity county . . .,21,0,train,burned,,keyword_rule_weak_label
+2003,california bush fires please evacuate affected areas asap when california govts advised you to do so,16,2,train,bush%20fires,Selangor,keyword_rule_weak_label
+2191,a better look at what this catastrophic rain and flooding has done to our _,15,2,train,catastrophic,,keyword_rule_weak_label
+2209,emergency response and hazardous chemical management: principles and practices,9,0,val,chemical%20emergency,,keyword_rule_weak_label
+2210,the chemical brothers to play the armory in sf tomorrow night ! : emergency bay area edm announcement the chem . . .,23,0,train,chemical%20emergency,"Littleton, CO, USA",keyword_rule_weak_label
+2211,illinois: emergency units simulate a chemical explosion at nu via hazmat,11,0,test,chemical%20emergency,"Virginia, United States",keyword_rule_weak_label
+2212,at fema's center for disaster preparedness for a weeklong training on chemical biological radioactive nuclear emergency response,17,0,train,chemical%20emergency,Center for Domestic Preparedness,keyword_rule_weak_label
+2213,russian nuclear-biological-chemical (nbc) brigade 'emergency response' exercise in southern md,10,0,train,chemical%20emergency,Ukraine and Ireland,keyword_rule_weak_label
+2215,? ? ? ? krefeld: the incident happened in a chemical industry park ! emergency operations underway ! a building reportly collapsed !,23,2,train,chemical%20emergency,Welt,keyword_rule_weak_label
+2219,usa: breaking news: chemical spill/evacuations/red cross emergency,7,2,train,chemical%20emergency,http://www.amazon.com/dp/B00HR,keyword_rule_weak_label
+2220,new job opening at downtown emergency service center in seattle - chemical dependency counselor or intern jobs,17,0,train,chemical%20emergency,"Seattle, Washington",keyword_rule_weak_label
+2221,emergency crews respond to chemical spill downtown beaumont benews,9,0,train,chemical%20emergency,"Beaumont, TX",keyword_rule_weak_label
+2222,explosion at chemical site leads to building collapse near krefeld germany . emergency crews on scene; avoid the area . ijetalerts,21,2,train,chemical%20emergency,"Annapolis, MD",keyword_rule_weak_label
+2225,bomb crash loot riot emergency pipe bomb nuclear chemical spill gas ricin leak violence drugs cartel cocaine marijuana heroine kidnap bust,21,0,train,chemical%20emergency,"Las Vegas, Nevada",keyword_rule_weak_label
+2227,google alert: emergency units simulate a chemical explosion at nu,10,1,train,chemical%20emergency,,keyword_rule_weak_label
+2229,downtown emergency service center is hiring ! chemical dependency counselor or intern in seattle apply now ! jobs,18,0,train,chemical%20emergency,"Seattle, Washington",keyword_rule_weak_label
+2230,do you have a plan in case of a pool chemical emergency ? learn more here: watersafety,17,0,test,chemical%20emergency,"Harris County, Texas",keyword_rule_weak_label
+2231,. . . need to be included in emergency planning for chemical plants . see also,16,0,train,chemical%20emergency,"Tyler, TX",keyword_rule_weak_label
+2233,emergency units simulate a chemical explosion at nu: suppose a student in the research labs at northwestern _,18,0,train,chemical%20emergency,"Evanston, IL",keyword_rule_weak_label
+2236,nueva favorita: emergency feat . the chemical brothers / my bits,11,0,train,chemical%20emergency,Colombia,keyword_rule_weak_label
+2237,downtown emergency service center is hiring a chemical dependency counselor or intern apply now ! seattle jobs,17,0,train,chemical%20emergency,"Seattle, Washington",keyword_rule_weak_label
+2239,our chemical spill cleanup videos will prepare you for an emergency situation in the lab .,16,0,train,chemical%20emergency,"Ames, Iowa",keyword_rule_weak_label
+2241,day 2 . liquidation of emergency at chemical object . usar2015 usar15 ruor # ? ? ? ? ? ? ? ? ? ? ?,25,0,train,chemical%20emergency,"Moscow, Russia",keyword_rule_weak_label
+2242,emergency units simulate a chemical explosion at nu - evanston now,11,0,train,chemical%20emergency,,keyword_rule_weak_label
+2245,fortunately i reworked the plumbing on my emergency chemical shower to draw from the glitter pipe for just such an occasion,21,0,val,chemical%20emergency,"Jersey City, NJ",keyword_rule_weak_label
+2246,its a family emergency so i can't make it unless i have a chance to use by phone for stream .,21,0,test,chemical%20emergency,,keyword_rule_weak_label
+2248,emergency 4 harbor city mod v4 . 5 . 2 6 chemical fire in residential area ! : via,19,0,test,chemical%20emergency,,keyword_rule_weak_label
+2250,emergency responders prepare for chemical disaster through hazmat training .,10,0,train,chemical%20emergency,"Mankato, MN",keyword_rule_weak_label
+2251,lindenow: 3:15pm emergency crews are at a chemical spill in the main street near church street,16,0,test,chemical%20emergency,"Orbost, Victoria, Australia",keyword_rule_weak_label
+2466,monsoon flooding - monsoon rains have have hit india pakistan and myanmar hard this season . two trains collided . . .,22,0,val,collided,,keyword_rule_weak_label
+2571,incident crash in pascoe vale south outbound on tullamarine fwy (citylink) near moreland rd . vehicles off in emergency lane . no delays .,24,0,train,crash,"Melbourne, Australia",keyword_rule_weak_label
+2803,awwww baby walter rewatchingthepilot teamscorpion cyclone,6,0,val,cyclone,United Kingdom,keyword_rule_weak_label
+2807,'the big ten has their annual football media day but before we get into that here's some cyclone hoops recruiting nuggets',21,0,train,cyclone,"Des Moines, Iowa ",keyword_rule_weak_label
+2808,camera art photography 0215 new bolt cyclone dr pp-400dr dual outlet power pack for external camera flash $30 _,19,0,train,cyclone,USA,keyword_rule_weak_label
+2811,it works for my purpose . a large cyclone would be better . i just don't have $4k . this was $500,22,0,train,cyclone,Rural Northern Nevada,keyword_rule_weak_label
+2813,a new tropical cyclone is forming near guam . once it is formed it will be called 'molave' .,19,0,train,cyclone,Republic of the Philippines,keyword_rule_weak_label
+2815,video: new de jhaustin thomas on being a cyclone - ames tribune: ames tribune video: new de jhaustin thomas on _,21,0,train,cyclone,,keyword_rule_weak_label
+2817,we need these plants in the pacific during the cyclone seasons it would help,14,0,test,cyclone,,keyword_rule_weak_label
+2819,bbc forced to retract false claims about cyclone pam via,10,0,train,cyclone,,keyword_rule_weak_label
+2820,great condition easton cyclone softball bat fastpitch (-9) 29/20 sk398,10,0,val,cyclone,,keyword_rule_weak_label
+2821,severe weather bulletin no . 5 for: typhoon hannaph (soudelor) tropical cyclone: warning issued at 5:00 pm 06 . . .,21,1,train,cyclone,Philippines ,keyword_rule_weak_label
+2822,'the cyclone derives its powers from a calm center . so does a person . ' - norman vincent peale,20,0,train,cyclone,"Washington, DC",keyword_rule_weak_label
+2825,ante hudhud cyclone chandrababu valle ne ante ga ?,9,0,train,cyclone,hyderabad,keyword_rule_weak_label
+2826,cyclone komen devastates families in myanmar this week . we need to help them today:,15,0,test,cyclone,Vancouver (HQ) and worldwide,keyword_rule_weak_label
+2827,severe weather bulletin 6 tropical cyclone warning: typhoon 'hanna' issued at 11:00 p . m . thursday 06 august . . .,22,1,train,cyclone,"Quezon City, Philippines",keyword_rule_weak_label
+2828,back to the future in vanuatu how cyclone pam has encouraged traditional ways of living:,15,0,val,cyclone,Geneva,keyword_rule_weak_label
+2829,bank manager asks tom in an interview: 'what is cyclone' tom: 'it is the loan given to purchase a bicycle',20,0,train,cyclone,"Hartford,  connecticut",keyword_rule_weak_label
+2830,excited for cyclone football,4,0,test,cyclone,"Sioux Falls, SD",keyword_rule_weak_label
+2832,talent: misdirection cyclone pass ignite pass vanishing drive phantom shot kurokobot,11,0,train,cyclone,Beside Basketball,keyword_rule_weak_label
+2833,now on comdev asia: radio stations in bangladesh broadcasting programs ? to address the upcoming cyclone komen,17,0,train,cyclone,"Rome, Italy",keyword_rule_weak_label
+2835,like a cyclone imperialism spins across the globe; militarism crushes peoples and sucks their blood like a . . .,20,0,test,cyclone,Tafekop Ga-Matsepe,keyword_rule_weak_label
+2836,1970 mercury cyclone gt hood moulding very nice core cobra jet 429cj gt,13,0,test,cyclone,,keyword_rule_weak_label
+2838,'i'm a cyclone passion overblown',5,0,train,cyclone,,keyword_rule_weak_label
+2839,his majesty emperor salman khan's unstoppable cyclone of entertainment humanity bajrangi bhaijaan creating history everywhere crosed 300 cr,18,0,train,cyclone,,keyword_rule_weak_label
+2841,1970 mercury cyclone gt quarter panel d/s rear trim moulding cobra jet 429cj,13,0,val,cyclone,,keyword_rule_weak_label
+2842,[tropical cyclone info] soudelor 945hpa maximum wind speed: 45m/s maximum wind gust speed: 60m/s,14,0,val,cyclone,,keyword_rule_weak_label
+2843,if i may ask cyclone-sama have you read jailed fate by rindou ?,13,0,train,cyclone,Melbourne,keyword_rule_weak_label
+2849,wfp - wfp delivers food to 165000 bangladesh flood victims after tropical cyclone komen: dhaka the united na . . .,21,0,train,cyclone,,keyword_rule_weak_label
+2851,rohingya houses in kyee nockthie hamlet from taungbazar region in buthidaung were severely damaged in cyclone,16,0,test,cyclone,,keyword_rule_weak_label
+2852,cyclone by double g would be the cherry on top to this outfit ! ootd doubleghats,16,0,test,cyclone,Made in America,keyword_rule_weak_label
+2869,storm damage reported in west tennessee,6,0,train,damage,Texas,keyword_rule_weak_label
+2893,jsunnews storm damage reported in madison county: thunderstorm damage reports ar . . . (via,15,0,train,damage,,keyword_rule_weak_label
+2896,thank you for words of warning re queenswharf brisbane via,10,1,train,damage,Australia,keyword_rule_weak_label
+2911,red flag warning for fire danger & dry thunderstorms in bay area weather cawx by,15,1,train,danger,"San Jose, California",keyword_rule_weak_label
+2943,thunderstorms with little rain expected in central california . high fire danger . weather cawx,15,0,train,danger,"San Jose, CA",keyword_rule_weak_label
+2973,beforeitsnews : hundreds feared dead after libyan migrant boat capsizes during rescue _,13,2,train,dead,,keyword_rule_weak_label
+3153,ah . i was awash with abstract dustpig tweets then . explains the deluge .,15,0,test,deluge,United Kingdom,keyword_rule_weak_label
+3154,my bet is mother nature might have plans to send a deluge our way .,15,0,train,deluge,right next to you,keyword_rule_weak_label
+3155,my feed seems to have a deluge once or twice during the week . it s fantastic .,18,0,train,deluge,CT ? NYC,keyword_rule_weak_label
+3157,most welcome ! organizing twitter to find the important stuff amongst the deluge ! btw loving the music and signed up for the ep !,25,0,train,deluge,www.tmgcgart.com,keyword_rule_weak_label
+3158,niagara falls package deals deluge tours yyeso,7,0,train,deluge,,keyword_rule_weak_label
+3159,i apologise sincerely for the inevitable deluge of gbbo tweets to come . i won't hold any grudges if you decide to unfollow baking cakes,25,0,test,deluge,"London, England",keyword_rule_weak_label
+3161,rt : a deluge of resources on floods for medical providers cleanup workers & more at:,16,0,train,deluge,"Los Angeles, CA",keyword_rule_weak_label
+3162,towboat trek sympathy deluge falls: vtc,6,0,train,deluge,,keyword_rule_weak_label
+3163,a deluge of eulogies for cecilthelion on my whatsapp >>this too *tormented soul by matias xavier *,17,0,train,deluge,,keyword_rule_weak_label
+3165,wa smiles after july deluge - the west australian via,10,0,train,deluge,Australia,keyword_rule_weak_label
+3166,china is only delaying the deluge: if the fundamentals of an economy do not support the valuations of a stock . . .,23,0,train,deluge,Brisbane,keyword_rule_weak_label
+3167,despite the deluge of fantasticfour notices our man o'cuana is still buying tickets - because he's bloody-minded like that .,20,0,train,deluge,Melbourne-ish,keyword_rule_weak_label
+3170,it's a deluge in trois-rivieres . about one hour to get to legionstrackandfield,13,0,train,deluge,"Brackley Beach, PE, Canada",keyword_rule_weak_label
+3171,why so many half-naked men on twitter tonight ? ! normally i'd embrace the odd torso but the scale of tonight's deluge is unprecedented,24,0,train,deluge,London,keyword_rule_weak_label
+3172,yes man i was having a bad week so far but events + a deluge of favs have turned it right around,22,0,test,deluge,518,keyword_rule_weak_label
+3173,best windows torrent client ? was recommended deluge but it looks like it was written 10 years ago with java swing and 'uses' worse,24,0,train,deluge,"Nottingham, England",keyword_rule_weak_label
+3174,the fifth pre-dynastic king in the legendary period before the deluge dumuzid ''the shepherd'',14,0,test,deluge,eARth 3,keyword_rule_weak_label
+3175,i am for the deluge of hell vines,8,0,train,deluge,,keyword_rule_weak_label
+3176,strange to encaustic cerography portion him till give voice deluge: byityf,11,0,train,deluge,,keyword_rule_weak_label
+3177,back on the beach after the deluge . surf camp in motion . our surf therapy programme kicked off today for . . .,24,0,train,deluge,"Enniscrone & Aughris, Sligo ",keyword_rule_weak_label
+3179,'light rain' was the forecast i based my dressing on . light . rain . not incessant deluge !,19,0,train,deluge,"Mostly Wellington, NZ ",keyword_rule_weak_label
+3180,perhaps 'historic' should be applied not to the deluge of recently exposed childsexabuse but the truly 'historic' scale of the cover-up,21,0,train,deluge,London,keyword_rule_weak_label
+3181,the bible sometimes backs up the truck and unloads a descriptive deluge of indecency on us . explains why on next .,22,0,train,deluge,,keyword_rule_weak_label
+3183,whole slew of updated posts coming now that the hosting is fixed ! unfml deluge,15,0,train,deluge,,keyword_rule_weak_label
+3184,photo: boyhaus: heaven sent by jake after a very warm morning on montana s madison river a early evening . . .,22,0,test,deluge,617-BTOWN-BEATDOWN,keyword_rule_weak_label
+3185,the f$& things i do for gishwhes just got soaked in a deluge going for pads and tampons . thx @/@,21,0,train,deluge,,keyword_rule_weak_label
+3186,'deluge' is such an awesome word . no idea why i like it so much,15,0,train,deluge,,keyword_rule_weak_label
+3188,wrinkled the face of deluge as decayed;,7,0,train,deluge,,keyword_rule_weak_label
+3189,thanks . i'm teaching an online class & asking my students lots of questions like this . sorry for the deluge of ren . art !,26,0,train,deluge,,keyword_rule_weak_label
+3190,only shadowman can save the big easy from a deluge of supernatural monstrosities . . . read free:,18,0,val,deluge,"Atlanta, Ga",keyword_rule_weak_label
+3191,hough_jeff: crap . the content marketing deluge . by dougkessler b2b b2bagency via slideshare contentmarketing,15,0,train,deluge,World,keyword_rule_weak_label
+3192,i love the song 'healing is here-deluge' &wanted to sing it at my church but it's not in spanish so i translated it .,24,0,train,deluge,,keyword_rule_weak_label
+3193,vince mcmahon once again a billionaire: i remember reading a deluge of posts about vince mcmahon losing $350 m . . .,22,0,train,deluge,"Fort Fizz, Ohio",keyword_rule_weak_label
+3195,nfl playing deflategate perfectly . the deluge of incremental stories has bored the world into not caring and just wanting it to go away,24,0,train,deluge,"New York, NY",keyword_rule_weak_label
+3196,if you're in search of powerful content to improve your business or have been frustrated with the deluge of 'quantit _,21,0,train,deluge,"Fort Lauderdale, FL",keyword_rule_weak_label
+3198,meditationbymsg 45600 ppl got method of meditation in u . p &got deluge of divine blessing 4 happy n peaceful life .,22,0,val,deluge,,keyword_rule_weak_label
+3199,here i'm the uk there isn't a deluge of canadian themed tops around . . . the timing was perfect . i can't quite believe it . mad .,29,0,train,deluge,Newcastle upon Tyne,keyword_rule_weak_label
+3200,tomorrow is internet day . it has been almost 2 months . i look forward* to the deluge of stuff i've been avoiding . *a downright lie,27,0,train,deluge,walking the tightrope,keyword_rule_weak_label
+3201,novalismi joseph mallord william turner - shade and darkness - the evening of the deluge 1843 (clicca sul titolo . . .,22,0,test,deluge,Frascati,keyword_rule_weak_label
+3236,eu states squabble over immigration . uk-france eurotunnel deluged with migrants . one dead as 'thousands storm' tunnel,18,0,val,deluged,#????? Libya#,keyword_rule_weak_label
+3412,bbc news - india rail crash: trains derail in madhya pradesh flash flood,13,1,val,derail,,keyword_rule_weak_label
+3436,dozens dead as two trains derail over river in india,10,0,train,derail,,keyword_rule_weak_label
+3446,dozens die as two trains derail into a river in india,11,0,test,derail,,keyword_rule_weak_label
+3498,cnn news august 5 2015 two trains derailed amid floods . . . video for india august flooding 2015 video youtube ? . . .,25,0,train,derailed,Texas-USAã¢ ?,keyword_rule_weak_label
+3530,suresh prabhu calls harda derailment a natural calamity; officials feel warning signs ignored: prabhu may regr . . .,19,1,train,derailment,New Delhi,keyword_rule_weak_label
+3715,everydaynaija | flood: two people dead 60 houses destroyed in kaduna,11,0,test,destroyed,everydaynigerian@gmail.com,keyword_rule_weak_label
+3717,flood: two people dead 60 houses destroyed in kaduna: two people have been reportedly killed and 60 houses ut . . .,22,0,train,destroyed,"Surulere Lagos,Home Of Swagg",keyword_rule_weak_label
+3725,flood: two people dead 60 houses destroyed in kaduna: two people have been reportedly killed an . . . semasirtalks,20,0,train,destroyed,"ÌÏT: 6.4682,3.18287",keyword_rule_weak_label
+3905,(losdelsonido) obama declares disaster for typhoon-devastated saipan: obama signs disaster declaration for northern ma . . . (ivanberroa),18,0,train,devastated,REPUBLICA DOMINICANA,keyword_rule_weak_label
+3906,obama declares disaster for typhoon-devastated saipan: president barack obama has declared the commonwealth of . . .,17,2,train,devastated,,keyword_rule_weak_label
+3907,obama declares disaster for typhoon-devastated saipan worldnews,7,0,train,devastated,,keyword_rule_weak_label
+3908,obama declares disaster for typhoon-devastated saipan: obama signs disaster declaration for northern marians a . . .,17,0,test,devastated,FOLLOWS YOU everywhere you go,keyword_rule_weak_label
+3933,abcnews - obama declares disaster for typhoon-devastated saipan: obama signs disaster declaration for northern . . .,17,0,val,devastated,,keyword_rule_weak_label
+3937,obama declares disaster for typhoon-devastated saipan:,6,0,train,devastated,,keyword_rule_weak_label
+3998,i forgot to bring chocolate with me . major disaster .,11,0,train,disaster,"Los Angeles, London, Kent",keyword_rule_weak_label
+4000,more natural disaster research urgent via jakartapost,7,0,train,disaster,"USA, Haiti, Nepal",keyword_rule_weak_label
+4003,i'm a disaster ? ?,5,0,train,disaster,Portoviejo-Manabi-Ecuador,keyword_rule_weak_label
+4005,i can see why one of your favorite books is 'beautiful disaster' it may now be one of mine ? ?,21,0,train,disaster,,keyword_rule_weak_label
+4006,'only the sea knows how many are dead' after last disaster in mediterranean turned into a massgrave,17,0,test,disaster,,keyword_rule_weak_label
+4008,beautiful disaster // jon mclaughlin is such a good song,10,0,train,disaster,chillin at ceder rapids,keyword_rule_weak_label
+4010,w/o giving up too much of nana france reminds me of america right before the war in iraq . a restlessness leading to disaster,24,0,train,disaster,,keyword_rule_weak_label
+4011,strengthening partnerships afterhaiyan haiyan yolandaph philippines livelihood disasterrecovery disaster,9,0,train,disaster,"Manila, Philippines",keyword_rule_weak_label
+4014,my first staining attempt was a disaster,7,0,val,disaster,,keyword_rule_weak_label
+4017,cw500: dealing with disaster -,5,0,train,disaster,Nigeria,keyword_rule_weak_label
+4018,i want to go back to vegas for my 21 but i feel like that would be such a disaster lol so much money would need to be brought,29,0,train,disaster,,keyword_rule_weak_label
+4019,blue bell may be close to a return from its listeria disaster . . . hot on theneeds recipes,19,0,train,disaster,San Francisco,keyword_rule_weak_label
+4020,jeff locke . train wreck . f'in disaster . fortunately the pirates acquired a top quality starter in j . a . . . oh wait . blowltan,28,0,test,disaster,"Hinton, W.Va.",keyword_rule_weak_label
+4021,metepec mexico - ? night disaster ? . . . e(oficial) @ nitclub m sica m sica,17,0,train,disaster,,keyword_rule_weak_label
+4022,disaster averted: police kill gunman with 'hoax device' at cinema via foxnews,12,0,test,disaster,"Philadelphia, PA USA",keyword_rule_weak_label
+4024,tv: vitaly churkin briliantly exposes the hypocrisy of the ukraine's fm klimkin about the mh17 disaster,16,0,train,disaster,,keyword_rule_weak_label
+4025,illinois tornado slipped under the radar emergency officials say,9,0,train,disaster,Naperville,keyword_rule_weak_label
+4026,top insurer blasts lack of australian govt action on disaster mitigation via,12,0,test,disaster,,keyword_rule_weak_label
+4027,i'm the architect of my own disaster,7,0,val,disaster,"Lima, Peru",keyword_rule_weak_label
+4028,my day has been a disaster of emotions,8,0,train,disaster,In Your Notifications ,keyword_rule_weak_label
+4029,i'm setting myself up for disaster,6,0,train,disaster,,keyword_rule_weak_label
+4030,what the hell is wrong with people ? ! communication ! rule with an iron fist ticket to disaster . can't swing one day and not the next .,29,0,train,disaster,"Fort Worth, Texas",keyword_rule_weak_label
+4032,msgdoing111welfareworks green s welfare force ke appx 65000 members har time disaster victim ki help ke liye tyar hai . . . .,23,0,train,disaster,Dappar (Mohali) Punjab,keyword_rule_weak_label
+4033,what a disaster - can't say i'm surprised,8,0,train,disaster,,keyword_rule_weak_label
+4034,rt the devereaux disaster . 'exciting scifi thriller . . . ' scifi kindle,14,0,train,disaster,London,keyword_rule_weak_label
+4038,keeps askin me what this means not like i got the answers plus if i say the wrong thing this might just turn into a disaster,26,0,train,disaster,los angeles,keyword_rule_weak_label
+4039,four technologies that could let humans survive environmental disaster -,10,0,test,disaster,"Alexandria, VA",keyword_rule_weak_label
+4041,the quote website = disaster . tried 3 browsers & 3 machines . always get 'missing info' error due to a non-existant drop down .,25,0,train,disaster,"Calgary, AB",keyword_rule_weak_label
+4042,i'd like to think i'm photogenic but every time i see a pic with me in it i just think to myself 'gosh what a disaster' xd,27,0,train,disaster,nearest trash can ,keyword_rule_weak_label
+4043,disaster averted: police kill gunman with hoax device at cinema,10,0,train,disaster,USA ,keyword_rule_weak_label
+4044,disaster averted: police kill gunman with 'hoax device' at cinema,10,0,test,disaster,Atlanta,keyword_rule_weak_label
+4045,if locke has to pitch in the playoffs it's not a disaster but they should absolutely positively never let him pitch the sixth inning .,25,0,val,disaster,,keyword_rule_weak_label
+4046,teen disaster preparedness event in van nuys august 11 @ 5:30pm via,12,0,val,disaster,"Los Angeles, California",keyword_rule_weak_label
+4047,add fez weather to the equation and you have the best recipe for disaster .,15,0,train,disaster,Morocco,keyword_rule_weak_label
+4049,myanmar displaced rohingya at sittwe point of no return prison like conditions genocide ihhen msf refugees,16,0,train,displaced,Pedophile hunting ground,keyword_rule_weak_label
+4050,crews were out all day boarding up windows at the park at the galleria apts . where fire displaced 55 this am .,23,0,train,displaced,,keyword_rule_weak_label
+4051,. potus strategicpatience is a strategy for genocide; refugees; idp internally displaced people; horror; etc .,16,0,train,displaced,U.S.,keyword_rule_weak_label
+4052,300000 dead 1200000 injured 11000000 displaced this is syria 2015 visit us canada,13,0,test,displaced,Visit our  dedicated website @,keyword_rule_weak_label
+4054,myanmar 's displaced rohingya at sittwe point of no return prison-like conditionsprivation,12,0,train,displaced,Asia Pacific   ,keyword_rule_weak_label
+4055,when i have so much shit going on in my head i'd rather talk about it than have an outburst . . displaced aggression sux ! !,27,0,val,displaced,North Carolina,keyword_rule_weak_label
+4057,kca votejkt48id 12news: update: a family of 3 has been displaced after fired damaged housed near 90th and osborn . fire extinguished no i _,25,0,test,displaced,,keyword_rule_weak_label
+4058,angry woman openly accuses nema of stealing relief materials meant for idps: an angry internally displaced wom . . .,20,0,train,displaced,"Ojodu,Lagos",keyword_rule_weak_label
+4060,'thousands of people were displaced/injured/killed but hey now there's more opportunity for different restaurants ! ',16,0,train,displaced,New York City,keyword_rule_weak_label
+4061,the year is 2065 and the national society of meme preservation has opened the first museum where memes and their origins are displaced,23,0,train,displaced,Seattle,keyword_rule_weak_label
+4062,philippines must protect internally displaced persons warns un expert,9,0,train,displaced,,keyword_rule_weak_label
+4063,at least 180 dead a million displaced in india floods - india | reliefweb,14,0,train,displaced,"Kelowna, BC",keyword_rule_weak_label
+4078,? the circular ruins - displaced part 4 ? nowplaying,10,0,val,displaced,San Francisco,keyword_rule_weak_label
+4079,historic flooding across asia leaves hundreds dead millions displaced:,9,0,train,displaced,"Oakland, CA",keyword_rule_weak_label
+4081,myanmar displaced rohingya at sittwe point of no return prison like conditions genocide,13,0,train,displaced,UK  & Germany,keyword_rule_weak_label
+4083,displaced persons gn (2014 image) 1-1st nm,7,0,train,displaced,,keyword_rule_weak_label
+4084,philippines must protect internally displaced persons warns un expert - the diplomat,12,0,train,displaced,Manila,keyword_rule_weak_label
+4085,how much would it cost to have some fat displaced ? asking for a friend .,16,0,val,displaced,Magnolia,keyword_rule_weak_label
+4087,40 displaced by ocean township apartment fire newyork -,9,0,train,displaced,New York,keyword_rule_weak_label
+4088,pennlive - two families displaced by mechanicsburg blaze - no one was injured in the fire .,17,0,train,displaced,,keyword_rule_weak_label
+4089,a crime that killed/displaced millions . in which systematic torture was carried out . but look . grahamwp fired a gun ! arrest him !,25,0,test,displaced,,keyword_rule_weak_label
+4091,': myanmar 's displaced rohingya at sittwe point of no return,11,0,train,displaced,(Spain),keyword_rule_weak_label
+4093,could billboard's hot 100 chart be displaced by these social-media-driven music charts ?,13,0,val,displaced,new york,keyword_rule_weak_label
+4094,real people . true stories . real pain & suffering . displaced refugeesmatter syria,14,0,test,displaced,Canada,keyword_rule_weak_label
+4095,do you want to hear more ? displaced my parents until both died in the diasporas !,17,0,train,displaced,Palestine ,keyword_rule_weak_label
+4096,elem pomo helping the displaced from the rocky fire . please consider ! elem evacuation center via,17,2,train,displaced,"Na:tinixw / Hoopa, Berkeley",keyword_rule_weak_label
+4097,for those displaced by disasters label and legal status remain out of reach,13,0,train,displaced,United Kingdom,keyword_rule_weak_label
+4100,u . s . in record hurricane drought,8,0,val,drought,,keyword_rule_weak_label
+4101,u . s . record hurricane drought .,8,0,train,drought,Chappaqua NY and Redlands CA,keyword_rule_weak_label
+4104,llf talk world news u . s . in record hurricane drought - the united states hasn't been hit by a major hurricane in t . . .,28,0,test,drought,NYC-LA-MIAMI,keyword_rule_weak_label
+4114,canada bc drought: okanagan region issued level 4 rating - okanagan river (columbia trib) fishing suspended to sep 30,19,0,val,drought,Canada,keyword_rule_weak_label
+4121,blog: rain much needed as drought conditions worsen: right now charlotte and much of the surrounding area have _,19,0,test,drought,"Charlotte, NC",keyword_rule_weak_label
+4131,me & you both & i'll be dam if i get any of that drought bud,16,0,train,drought,,keyword_rule_weak_label
+4133,u . s . in record hurricane drought: the united states hasn't been hit by a major hurricane in the past nine years and it seems like that _,29,0,test,drought,,keyword_rule_weak_label
+4135,large rain drops falling in rock hill off anderson road . rain scwx drought,14,0,train,drought,"Rock Hill, SC",keyword_rule_weak_label
+4145,llf talk world news u . s . in record hurricane drought - the united states hasn't been hit by a major hurricane in . . .,27,0,train,drought,,keyword_rule_weak_label
+4166,i'll drown you in the river walk,7,0,train,drown,,keyword_rule_weak_label
+4184,we are getting some reports of flooding near jonesboro high school . please use caution when driving in the area . turn around don't drown !,26,0,train,drown,"Jonesboro, Arkansas USA",keyword_rule_weak_label
+4248,forever drowning in my feelings .,6,0,train,drowning,,keyword_rule_weak_label
+4250,the drowning girl by caitlin r . kiernan centipede press signed numbered limited - full re _,17,0,train,drowning,New York,keyword_rule_weak_label
+4252,grace: this is not your first ' storm' you know bicycles fences trees will fly as well as idiots drowning that go by swollen rivers . . .,28,0,val,drowning,USA,keyword_rule_weak_label
+4253,london is drowning and iiii live by the riveeeeeer,9,0,train,drowning,Numa casa de old yellow bricks,keyword_rule_weak_label
+4255,family mourns drowning of 'superhero' toddler with rare epilepsy: bradley diebold suffered hundreds of epileptic _,16,0,train,drowning,"Chicago, IL",keyword_rule_weak_label
+4256,why are you drowning in low self-image ? take the quiz:,11,0,train,drowning,Coventry,keyword_rule_weak_label
+4257,2/his explanation was that 'you request as much as you want provided you get your job done but you're constantly drowning in work ! ',25,0,train,drowning,94123,keyword_rule_weak_label
+4260,'drowning' - acrylic 08 . 05 . 15,8,0,train,drowning,,keyword_rule_weak_label
+4264,hello 911 yeah we have someone drowning here send a medic,11,0,train,drowning,New Jersey/ D.R.,keyword_rule_weak_label
+4265,what if i'm drowning,4,0,train,drowning,CT & NY,keyword_rule_weak_label
+4266,its like theres fire in my skin and im drowning from within ? ? ? ?,16,0,train,drowning,,keyword_rule_weak_label
+4268,don't you dare play the victim when i've been drowning for years .,13,0,train,drowning,scandinavia,keyword_rule_weak_label
+4269,i will stay drowning till you watch nashsnewvideo,8,0,train,drowning,"los angeles, ca",keyword_rule_weak_label
+4270,sometimesi can't even breathe well i feel like drowning and can't deal with my fear anxietyproblems,16,0,train,drowning,South Korea GMT+9,keyword_rule_weak_label
+4271,no reported cases of people drowning in sweat . . . fyi,12,0,val,drowning,"Baltimore, MD",keyword_rule_weak_label
+4272,family mourns drowning of 'superhero' toddler with rare epilepsy - chicago tribune,12,0,train,drowning,"Hughes, AR",keyword_rule_weak_label
+4273,believe it or not we've had too much rain here . our newly planted maple trees are actually drowning .,20,0,val,drowning,"Madison, WI",keyword_rule_weak_label
+4274,boy saves autistic brother from drowning: a nine-year-old in maine dove into a pool to save his autistic brother from drowning,21,0,train,drowning,,keyword_rule_weak_label
+4275,louis in red jacket round 2 aka drowning in my tears,11,0,train,drowning,,keyword_rule_weak_label
+4279,i'm drowning in spirits to wash you out,8,0,val,drowning,"Virginia, USA",keyword_rule_weak_label
+4282,islamic state issue a new holiday brochure lovely swimming pool for drowning in shooting range and the downside it costs a bomb,22,0,train,drowning,"yorkshire
+",keyword_rule_weak_label
+4284,drowning sorrows in jarmusch vampires .,6,0,test,drowning,Coasts of Maine & California,keyword_rule_weak_label
+4288,can still see it . . . blank expression . . . cheeks clapping in my face . . . marvins room playing subtlety in the back yet drowning out all the sound,33,0,train,drowning,,keyword_rule_weak_label
+4289,my mom is watching a show about bridges breaking/falling and the people on them drowning in their cars aka one of my biggest fears ? ? ? ?,28,0,train,drowning,,keyword_rule_weak_label
+4292,drowning in actavis suicide,4,0,val,drowning,Pittsburgh ,keyword_rule_weak_label
+4293,what this man did to save a drowning squirrel is absolutely incredible,12,0,train,drowning,,keyword_rule_weak_label
+4295,only urs and srs matter rs you'll be drowning in . tho you're already drowning in ns lol .,19,0,train,drowning,,keyword_rule_weak_label
+4296,i feel like i'm drowning inside my own body ! !,11,0,train,drowning,"Pennsylvania, USA",keyword_rule_weak_label
+4297,i'm drowning in hw now and that's w/o going to swim ohlordy,12,0,train,drowning,"San Diego, California",keyword_rule_weak_label
+4298,bg-16: so far brunt of storm just to our north . grayed out w/ dust & rain to n blue sky interspersed w/ clouds to s .,27,0,train,dust%20storm,Idaho,keyword_rule_weak_label
+4299,some poor sods arriving in amman during yesterday's dust storm were diverted to ben gurion airport:,16,0,train,dust%20storm,"Beirut, Lebanon",keyword_rule_weak_label
+4300,kids disappear in dust storm in atmospheric aussie thriller rt,10,0,test,dust%20storm,,keyword_rule_weak_label
+4301,nasa modis image: dust storm over morocco and the straits of gibraltar duststorm,13,0,val,dust%20storm,"El Paso, Texas",keyword_rule_weak_label
+4303,totoooooo ! totoooooooooo ! ': dust storm approaching stratford texas 18th april 1935 .,14,0,val,dust%20storm,qosqo,keyword_rule_weak_label
+4304,severe storm weakening as it moves se towards lubbock area . outflow boundary may create dust and 50 mph gusts,20,0,train,dust%20storm,"Lubbock, TX",keyword_rule_weak_label
+4305,when the answer my friend isn't blowing in the wind-it's yelling ! -how to survive a dust storm,18,0,train,dust%20storm,CA via Brum,keyword_rule_weak_label
+4307,how to survive a dust storm,6,0,train,dust%20storm,,keyword_rule_weak_label
+4309,dust storm 'en route' from alice springs to uluru,9,0,train,dust%20storm,,keyword_rule_weak_label
+4312,i keep sneezing either someone placed a southern dust storm in my house or someone talkin smack,17,0,train,dust%20storm,Lizzy's Knee,keyword_rule_weak_label
+4313,|| so . . . . i just watched the trailed for the dust storm and i think part of me just died . . . . colin is so perfect my goodness .,34,0,train,dust%20storm,,keyword_rule_weak_label
+4314,dust devil maintenance fee - buy up la rotary storm guard: uvopwz,12,0,val,dust%20storm,,keyword_rule_weak_label
+4317,people in sydney woke up to the whole sky being red after a dust storm . . like unreal .,20,0,train,dust%20storm,D(M)V  ,keyword_rule_weak_label
+4318,there's a big storm brewing dark clouds thunder and rain carrying thick dust . this could be interesting .,19,0,train,dust%20storm,"Marrakech MÌ©dina, Marrakech - Tensift - Al Haouz",keyword_rule_weak_label
+4320,i-90 vantage: backups eastbound with low visibility due to a dust storm about 4 miles east of the bridge .,20,0,train,dust%20storm,Ellensburg to Spokane,keyword_rule_weak_label
+4321,good way to end the day ! ! ! geyser plus dust storm !,14,0,train,dust%20storm,,keyword_rule_weak_label
+4322,dust storm in riyadh ? ? ? ?,8,0,train,dust%20storm,SD |Norway| KSA,keyword_rule_weak_label
+4323,new mad max screenshots show off a lovely dust storm combat magnum opus,13,0,train,dust%20storm,,keyword_rule_weak_label
+4324,let it be gone away like a dust in the wind . . . . big wind like a tornado with blizzard thunder and storm its that what i always want it,32,0,train,dust%20storm,,keyword_rule_weak_label
+4325,new mad max screenshots show off a lovely dust storm combat magnum opus cogxbox xboxone xbox,16,0,train,dust%20storm,A sofa,keyword_rule_weak_label
+4327,i need the dust storm film asap also *watches the trailer for the 500th time*,15,0,val,dust%20storm,Û¢5Û¢12Û¢14Û¢ | åÈ#SaviourSquadåÇ,keyword_rule_weak_label
+4328,storm headed towards idaho falls with blowing dust & winds to 60 mph . us hwy 20 & i15 look out . idwx,23,0,train,dust%20storm,"Pocatello, ID",keyword_rule_weak_label
+4329,currently driving through a dust storm .,7,0,val,dust%20storm,Room 234,keyword_rule_weak_label
+4330,i learned more about economics from one south dakota dust storm than i did in all my years in college . -hubert humphrey,23,0,train,dust%20storm,,keyword_rule_weak_label
+4332,6 things getting caught in a dust storm & the challenging real estate market have in common (+ video):,19,0,train,dust%20storm,Near Yosemite,keyword_rule_weak_label
+4333,raw video: dust storm rolls through texas,7,0,train,dust%20storm,,keyword_rule_weak_label
+4335,dust in the wind: paratroopers move to a loading zone during a dust storm in support of operation fury:,19,0,train,dust%20storm,"Atlanta, GA",keyword_rule_weak_label
+4341,even staying up all night to he barrier for t p and then having to run through a dust storm and almost passing out ?,25,0,test,dust%20storm,"Atlanta, GA",keyword_rule_weak_label
+4342,going to a fest ? bring swimming goggles for the dust storm in the circle pit,16,0,train,dust%20storm,chicago,keyword_rule_weak_label
+4499,survival kit whistle fire starter wire saw cree torch emergency blanket s knife - full re _,17,0,train,emergency,New York,keyword_rule_weak_label
+4503,emergency flow mp3 rar,4,0,train,emergency,,keyword_rule_weak_label
+4504,emergency dispatchers in boone county in the hot seat,9,0,val,emergency,"New Orleans, LA",keyword_rule_weak_label
+4509,deals : 37592 temporary fake tooth teeth replacement kit emergency dental oral care cosme _,15,0,train,emergency,USA,keyword_rule_weak_label
+4511,god forbid anyone in my family knows how to answer a phone . i need new emergency contacts .,19,0,train,emergency,Phoenix,keyword_rule_weak_label
+4514,alaska s prince of wales archipelagowolves are nearing extinction . demand emergency protection ! standforwolves,15,0,train,emergency,denmark,keyword_rule_weak_label
+4515,'the day you learn the importance of emergency exits is the day your heartbeat stops sounding familiar . ',19,0,test,emergency,Davao City,keyword_rule_weak_label
+4516,for the international emergency medicine conference w/ lennox hill hospital and drjustinmazur,12,0,train,emergency,"Based out of Portland, Oregon",keyword_rule_weak_label
+4517,plane from new york to kuwait diverts to uk after declaring state of emergency,14,0,test,emergency,Kuwait,keyword_rule_weak_label
+4518,when your child needs emergency care they can be seen in our emergency department by specialists !,17,0,val,emergency,"Wildomar, CA",keyword_rule_weak_label
+4519,stl ace grille - surface mounts speedtech lights - amber emergency lights - 544,14,0,train,emergency,,keyword_rule_weak_label
+4520,the new quest type is 'level up quest' . its an always present quest with x2 exp designed to help people level up outside of emergency quests,27,0,train,emergency,buhh,keyword_rule_weak_label
+4521,11000 seeds 30 vegetable fruit variety garden kit emergency survival gear mre - full rea _,16,0,train,emergency,New York,keyword_rule_weak_label
+4522,update: indiana state police reopening i-65 near lafayette following emergency bridge repairs that closed key highway for about 28 hours .,21,0,test,emergency,"Indianapolis, IN",keyword_rule_weak_label
+4523,sf asian women's shelter crisis line (415) 751-0880 . emergency shelter/support services 4 non-english speaking asian women & children .,20,0,train,emergency,We are global!,keyword_rule_weak_label
+4524,emergency root canal ! ! tookitlikeaman lovemydentist sore,8,0,train,emergency,,keyword_rule_weak_label
+4525,yes; especially new clients that walk in and think a wart is an emergency .,15,0,train,emergency,,keyword_rule_weak_label
+4527,anchorage jobs emergency medicine - nurse practitioner - healthcare recruitment counselors (wasilla ak): em . . .,17,0,train,emergency,"Anchorage, AK",keyword_rule_weak_label
+4528,setting up an emergency fund in 3 easy steps: you never know when a surprise expense will pop up . so work up t . . .,27,0,train,emergency,World,keyword_rule_weak_label
+4529,the eyes of the nation & broader conservation community are on alaska reinstate emergency buffer protectdenaliwolves,16,0,train,emergency,,keyword_rule_weak_label
+4530,gonna call up tomorrow with the aul 'emergency dental appointment' excuse just like the whole tooth falling out incident of last year,22,0,val,emergency,University of Limerick,keyword_rule_weak_label
+4531,loans until settlement day ? ? emergency money advances treasure-house self outbreed yours below take-home: akx,16,0,train,emergency,,keyword_rule_weak_label
+4533,in both 'peacetime and times of national emergency . ',10,0,train,emergency,Sacae Plains,keyword_rule_weak_label
+4534,from : lean thinking for quicker police emergency response time,10,0,train,emergency,"Melbourne, Australia",keyword_rule_weak_label
+4537,former heroin addict shares story as city leaders sound alarm: city officials said emergency teams responded t . . .,20,0,val,emergency,Southern Maine,keyword_rule_weak_label
+4539,came across this fire video not mine . . enjoy . . fire firemen firetruck emergency rescue 911 summertime sirens _,21,2,train,emergency,Five down from the Coffeeshop,keyword_rule_weak_label
+4541,we enjoyed the show today . great fun . the emergency non evacuation was interesting . have a great run .,21,2,train,emergency,"Renfrew, Scotland",keyword_rule_weak_label
+4542,denali wolf population declined from 143 in 2007 2 just 48 in 2015 . reinstate emergency buffer zone protectdenaliwolves,19,0,train,emergency,,keyword_rule_weak_label
+4543,of newport a big thanks for the emergency run to pick jackie up from bristol temple messages much appreciated,19,0,val,emergency,,keyword_rule_weak_label
+4544,i'm glad when i call someone it's not an emergency since they never answer their phones or call back ? ?,21,0,train,emergency,,keyword_rule_weak_label
+4546,to supply and install new frp emergency slide at tunas kijangbank negara malaysia [closing date: 2015-08-14] . . .,19,0,train,emergency,"Kuala Lumpur, Malaysia",keyword_rule_weak_label
+4547,emergency in odai bucharest romania 600 dogs dying ! they are so hungry that they eat each other !,19,0,train,emergency,,keyword_rule_weak_label
+4548,4 printable emergency plan templates,5,0,train,emergency%20plan,"Antioch, CA ",keyword_rule_weak_label
+4549,thx for emergency dec . 4 days and no plan to get h20 to those who have no transport . can you deploy troops ?,25,0,train,emergency%20plan,,keyword_rule_weak_label
+4550,see aug 4 2015 poconorecord - how many households have an emergency plan ? |,15,0,test,emergency%20plan,"Alexandria, VA, USA",keyword_rule_weak_label
+4551,our builder is having a dental emergency . which has ruined my plan to emotionally blackmail him this afternoon with my bump .,23,0,val,emergency%20plan,Ireland,keyword_rule_weak_label
+4553,this from the city of calgary - city of calgary has activated municipal emergency plan the municipal emergency . . .,21,0,train,emergency%20plan,"Calgary, AB",keyword_rule_weak_label
+4556,gamergate the end of reddit is coming . it's time we devise an emergency evacuation plan .,17,2,train,emergency%20plan,Reddit,keyword_rule_weak_label
+4561,good tips ! does your family have an emergency plan ? . . .,14,0,test,emergency%20plan,"Bakersfield, CA",keyword_rule_weak_label
+4562,. activates emergency plan amid severe thunderstorm warning yyc abstorm,10,1,train,emergency%20plan,"Calgary, Alberta, Canada",keyword_rule_weak_label
+4563,city of calgary activates municipal emergency plan -,8,0,val,emergency%20plan,Somewhere in the Canada,keyword_rule_weak_label
+4564,govt plan for rs40000cr lifeline to fci waste of money ask people to store grains fr 3_6_12 months fr emergency enough capacity available nw,24,0,train,emergency%20plan,Nagpur,keyword_rule_weak_label
+4565,do you know the emergency plan at your workplace ? if not ask your supervisor or operations manager . retail,20,0,train,emergency%20plan,"Los Angeles, CA",keyword_rule_weak_label
+4567,nhs england announces new plan to meet emergency care targets,10,0,test,emergency%20plan,Surrey & Manchester,keyword_rule_weak_label
+4568,the city has activated the municipal emergency plan . primarily stay indoors avoid flooded areas call 311 for . . .,21,0,train,emergency%20plan,"Calgary,AB, Canada",keyword_rule_weak_label
+4569,city of calgary activates municipal emergency plan - 660 news,10,0,train,emergency%20plan,,keyword_rule_weak_label
+4575,b/c it costs less to have sick people using emergency rooms ? . . . grrrr . . . .,20,0,train,emergency%20plan,"Atlanta, GA",keyword_rule_weak_label
+4576,: yo forreal we need to have like an emergency action plan incase donald trump becomes president whipe that lil baby,21,0,test,emergency%20plan,Im In Route ,keyword_rule_weak_label
+4577,accepts wisconsin emergency response plan on behalf of nbc15,9,0,train,emergency%20plan,"Madison, WI",keyword_rule_weak_label
+4578,cruise's 'm:i 5' emergency plan: awesome fail,7,0,train,emergency%20plan,Kansas City,keyword_rule_weak_label
+4579,practice your families fire escape plan so everyone knows what to do in case of an emergency .,18,0,train,emergency%20plan,North Hastings Ontario,keyword_rule_weak_label
+4580,biztip we recommend all businesses to get an alternative source of electricity . solar wind and batteries . have an emergency plan ! now !,25,0,train,emergency%20plan,U.S. Northern Virginia,keyword_rule_weak_label
+4582,when your body's like 'go to fuck to sleep sami' and your mind's like 'make an emergency plan for every natural disaster go',23,0,train,emergency%20plan,M!$$!$$!PP!,keyword_rule_weak_label
+4584,do you have a plan ? emergency preparedness for families of children with special needs autism specialneeds,17,0,train,emergency%20plan,Indiana,keyword_rule_weak_label
+4585,senators calling for emergency housing: boxer feinstein back plan to move homeless vets to va campus,16,0,test,emergency%20plan,Los Angeles,keyword_rule_weak_label
+4587,severe thunderstorm warning remains for cochrane . has enacted municipal emergency plan after today's storm . abstorm,17,1,val,emergency%20plan,"Cochrane, Alberta, Canada",keyword_rule_weak_label
+4588,can't fix stupid . mt don't drive through flooded underpasses warns city as it enacts municipal emergency plan . yyc abstorm,21,0,test,emergency%20plan,"Leduc, Alberta, Canada",keyword_rule_weak_label
+4589,do you have an emergency drinking water plan ? download guide in english spanish french arabic or vietnamese .,19,0,val,emergency%20plan,,keyword_rule_weak_label
+4590,a big issue left undone is how to get home if adverse weather hits . has no real emergency plan in place,22,0,train,emergency%20plan,"Chapel Hill, NC",keyword_rule_weak_label
+4592,city of calgary activates municipal emergency plan as more thunderstorms approach,11,0,val,emergency%20plan,,keyword_rule_weak_label
+4593,the municipal emergency plan is now in effect . stay safe everyone ! abstorm yyc,15,0,val,emergency%20plan,"204, 555 11 Ave. S.W.",keyword_rule_weak_label
+4595,storm concludes city of calgary's municipal emergency plan deactivated,9,0,train,emergency%20plan,Calgary,keyword_rule_weak_label
+4596,county 911 overload prompts use of emergency plan during july 4 celebrations,12,0,val,emergency%20plan,"Augusta, GA",keyword_rule_weak_label
+4597,in an emergency situation late in the year . not as a plan in camp,15,0,train,emergency%20plan,"Dallas, TX",keyword_rule_weak_label
+4598,haha ? ? ? ? ? ? . . are you really comparing yourselves to the emergency services ! thats brilliant ! talk about up your own arse !,29,0,val,emergency%20services,,keyword_rule_weak_label
+4599,the drive in ilford closed both ways while emergency services deal with a call out . buses are now stuck .,21,0,train,emergency%20services,London,keyword_rule_weak_label
+4600,do you know where abouts as i heard emergency services near by,12,0,val,emergency%20services,,keyword_rule_weak_label
+4602,sustainability task force presents levy to fund emergency services - wdtv,11,0,train,emergency%20services,"USA, Alabama",keyword_rule_weak_label
+4604,nursing alert: emergency department psychiatric rn ( . 90 fte day) | providence health & services | olympia wa,19,1,val,emergency%20services,"Olympia, WA",keyword_rule_weak_label
+4606,i am not an american but i have family who have served in the military work in the emergency services and work in . . .,26,0,test,emergency%20services,"London, UK",keyword_rule_weak_label
+4607,emergency services committee and personnel committee meeting on thursday night,10,0,train,emergency%20services,,keyword_rule_weak_label
+4608,we're hiring ! click to apply: rn ii/emergency services/ft/7p-7a - nursing houston tx,13,0,val,emergency%20services,,keyword_rule_weak_label
+4609,we're hiring ! read about our latest job opening here: rn nurse shift manager emergency services - full time . . . -,23,0,train,emergency%20services,"CA, AZ & NV",keyword_rule_weak_label
+4610,veterans vet act would ensure every military veteran's access to highest level of emergency care services: proper treatmen . . . followme,22,0,train,emergency%20services,"British Columbia, Canada",keyword_rule_weak_label
+4611,emergency services unsure how to cope with loss of paging network,11,0,test,emergency%20services,Auckland,keyword_rule_weak_label
+4614,brooklyn locksmith: domesticate emergency mechanic services circa the clock movement ! : gba,13,0,val,emergency%20services,,keyword_rule_weak_label
+4616,public hearing on 2015-16 budget thurs 8/6 at 3:15 emergency services ctr goshen .,14,0,val,emergency%20services,"Orange County, NY",keyword_rule_weak_label
+4617,apply now to work for dignity health as rn emergency services full time 7a-7:30p siena campus in henderson jobs,19,0,test,emergency%20services,"Henderson, Nevada",keyword_rule_weak_label
+4620,removing tsunami debris from the west coast: karen robinson enviromental and emergency services manager of the _,17,0,train,emergency%20services,"Vancouver, British Columbia",keyword_rule_weak_label
+4622,the tubestrike is because tfl workers may have trouble planning downtime . i hope none need emergency services .,19,0,test,emergency%20services,"London, England",keyword_rule_weak_label
+4624,breaking news - call for tasmania's emergency services to be trained in horse . . . -,17,0,train,emergency%20services,USA,keyword_rule_weak_label
+4625,can you recommend anyone for this job ? rn emergency services full time 3p - 3\:30a rose de lima campus - hiring,22,0,train,emergency%20services,"Nevada, USA",keyword_rule_weak_label
+4627,emergency shutdown systems - edmonton,5,0,train,emergency%20services,,keyword_rule_weak_label
+4628,healthcare job in kodiak ak: emergency services supervisor - emergency . . . at providence health & services jobs,19,0,train,emergency%20services,Alaska,keyword_rule_weak_label
+4630,air group is here to the rescue ! we have 24/7 emergency service ! learn more about it here -,20,2,train,emergency%20services,"Whippany, NJ",keyword_rule_weak_label
+4632,goulburn man henry van bilsen missing: emergency services are searching for a goulburn man who disappeared from his _,19,0,val,emergency%20services,"Sydney, New South Wales",keyword_rule_weak_label
+4634,we're hiring ! read about our latest job opening here: emergency department psychiatric rn ( . 90 fte day) -,20,0,train,emergency%20services,"Olympia, WA",keyword_rule_weak_label
+4635,providence health & services: emergency services supervisor - emergency department . . . (kodiak ak) healthcare job,17,0,val,emergency%20services,"Kodiak, AK",keyword_rule_weak_label
+4639,beyond stressed beyond hysteria into the grey misty indifference of complete shutdown of all but emergency services in my brain,20,0,train,emergency%20services,?????,keyword_rule_weak_label
+4641,services are returning to normal southline after a medical emergency at yennora and urgent track equipment repairs at cabramatta earlier .,21,0,train,emergency%20services,Sydney,keyword_rule_weak_label
+4642,hi i thought that i recognised your smile . i believe that the emergency services are the best performing arts followers simon .,23,0,test,emergency%20services,"Birmingham, England",keyword_rule_weak_label
+4644,our doctors and nurses in the new pediatric emergency department are all specialized in child services !,17,0,train,emergency%20services,"Park Ridge, Illinois",keyword_rule_weak_label
+4646,missionhills ca nursing : registered nurse - emergency department ( full time . . . at providence health & services,20,0,train,emergency%20services,"Los Angeles, CA",keyword_rule_weak_label
+4711,i feel like if mkayla and cee ever got in the same room everyone should evacuate because it would be so petty and childish i couldn't deal,27,2,train,evacuate,,keyword_rule_weak_label
+4712,chicago (ap) organizers of lollapalooza say they are reopening the music festival after the threat of a storm prompted them to evacuate,22,2,test,evacuate,,keyword_rule_weak_label
+4713,learn how to evacuate your home in the event of a wildfire view videos at ca nv ut co or,20,2,train,evacuate,Tallahassee Florida,keyword_rule_weak_label
+4714,disaster control teams are studying ways to evacuate the port area in response to tidal wave warnings . [900037],19,2,test,evacuate,,keyword_rule_weak_label
+4715,'so again make sure to evacuate past the fire doors . any questions ? yes ? ' 'why would we open the doors to the fire ! ! ? ! ? ? ! ? ' i . . . i . . i cant,44,2,train,evacuate,New England,keyword_rule_weak_label
+4716,when there's a fire alarm going off in zehrs and we keep working for 20 minutes then decide to evacuate everyone . .,23,2,train,evacuate,"Waterloo, Ont",keyword_rule_weak_label
+4717,california &039;monster&039; fire is 20% contained as 13000 are told to evacuate,12,2,train,evacuate,,keyword_rule_weak_label
+4719,if you did a cannon ball into the ocean then japan would evacuate .,14,2,train,evacuate,,keyword_rule_weak_label
+4720,firefigthers evacuate from northampton township house fire,7,2,train,evacuate,Worldwide,keyword_rule_weak_label
+4722,okay i need all of you to evacuate the house so i can write this poem,16,2,test,evacuate,17-Feb,keyword_rule_weak_label
+4723,fire crews evacuate passengers from a gold coast tram trapped when powerlines fell across a carriage . tennews 5pm,19,2,test,evacuate,Brisbane,keyword_rule_weak_label
+4724,cascada - evacuate the dancefloor (official video) via,8,2,val,evacuate,"New Britain, CT",keyword_rule_weak_label
+4725,disregard my snap story there is an angry white girl riot happening as we speak . evacuate,17,2,train,evacuate,,keyword_rule_weak_label
+4726,fwd: i literally jumped out of bed put on beach clothes and ran out my door like i had to evacuate for an apocalypse,24,2,train,evacuate,,keyword_rule_weak_label
+4729,pls can alllll the nittys evacuate stockwell,7,2,train,evacuate,,keyword_rule_weak_label
+4730,cancel the fucking show . evacuate metlife,7,2,test,evacuate,,keyword_rule_weak_label
+4731,condemnation clearly replacing the latest response aimlessly dryer evacuate detersion de: hlg,12,2,train,evacuate,,keyword_rule_weak_label
+4732,the efak would be designed for building occupants once they evacuate and report to their evacuation assembly sites,18,2,train,evacuate,"Chevy Chase, MD",keyword_rule_weak_label
+4734,jay and alexis broke up there goes all your faith and goals people . . . evacuate yourself,18,2,train,evacuate,LA - everywhere,keyword_rule_weak_label
+4735,dealbreaker that's it that's the dealbreaker s . o . s . abandon ship evacuate the building,17,2,train,evacuate,wrapped arnd hyuk's finger,keyword_rule_weak_label
+4736,so all the store's fire alarms went off today at work and we had to evacuate . i was like 'omg ! ! i . s . i . s . its happening ! ! ! ! ',38,2,train,evacuate,Sevier County.,keyword_rule_weak_label
+4737,louis is sad . cancel the show now . everyone leave . evacuate . this cannot go on .,19,2,test,evacuate,,keyword_rule_weak_label
+4738,no don't evacuate the students just throw them in the dungeon . that is stupid .,16,2,train,evacuate,Rochester,keyword_rule_weak_label
+4739,the u . s . also flew over each bomb site in world war ii with warning letters telling people to evacuate,22,2,train,evacuate,,keyword_rule_weak_label
+4740,mygc: broken powerlines evacuate gold coast tram suspend services,9,2,val,evacuate,"Gold Coast, Qld, Australia",keyword_rule_weak_label
+4742,sooo police dispatch said there was a person threatening to shoot up the walmart on rutherford & they had to evacuate,21,2,test,evacuate,,keyword_rule_weak_label
+4744,the summer program i worked for went the city pool we had to evacuate because one of my kids left a surprise . worstsummerjob,24,2,test,evacuate,,keyword_rule_weak_label
+4745,us govt refuses to evacuate 1000s of americans from yemen yemen usa evacuation abandoned,14,2,val,evacuate,London UK,keyword_rule_weak_label
+4747,and from what i can tell- they responded to today's gunman quickly and were able to evacuate all the ppl so no one was shot .,26,2,train,evacuate,Nashville,keyword_rule_weak_label
+4748,30 seconds for my bitches to evacuate ? ? ? ? ? ?,13,2,test,evacuate,FLYEST HIPPIE YOU KNOW ,keyword_rule_weak_label
+4749,california wildfires force thousands to evacuate: via,7,2,train,evacuate,U.S.A,keyword_rule_weak_label
+4750,yeah i grew up in the canyon above l . a . we had to evacuate a few times .,20,2,train,evacuate,An eight-sided polygon,keyword_rule_weak_label
+4752,quick shut down the show take the stage down evacuate everyone from mthe premises louis is upset,17,2,train,evacuate,,keyword_rule_weak_label
+4753,'don't bother while you were offline i managed to evacuate everyone out of here including hinata so so go ahead and cause--,22,2,train,evacuate,Konoha Village,keyword_rule_weak_label
+4754,evacuate from your life .,5,2,train,evacuate,"St. Catharines, Ontario",keyword_rule_weak_label
+4755,tonight is being quite interesting . . . a few minutes ago the fire system went off and we had to evacuate the building .,25,2,train,evacuate,//??//,keyword_rule_weak_label
+4757,i just want everyone to know that emilee was worried i was getting a milkshake when we were supposed to evacuate,21,2,test,evacuate,FSC '19,keyword_rule_weak_label
+4758,and my fam had to evacuate bc we need power,10,2,train,evacuate,Û¢901Û¢,keyword_rule_weak_label
+4759,wow . fifa16 has pre season tournaments in career mode . bloody hell evacuate the building whocares,17,2,train,evacuate,"London, England",keyword_rule_weak_label
+4760,perhaps the criminal murderous nazis should pack their bags & evacuate themselves from london & all uk ? tubestrike well done !,22,2,train,evacuate,,keyword_rule_weak_label
+4769,new evacuation ordered for 25 homes in danger of hwy . 8 fire near roosevelt wash . koin6news,18,2,train,evacuated,"Portland, Ore. ",keyword_rule_weak_label
+4783,just got evacuated from the movie theatre for an emergency . saw people running from another they're .,18,2,train,evacuated,"Nashville, TN",keyword_rule_weak_label
+4788,evacuation orders lifted for roosevelt in highway 8 fire . koin6news,11,2,train,evacuated,"Portland, Oregon",keyword_rule_weak_label
+4789,our thoughts are with these local residents ! time for some heavy rain ! ! !,16,1,train,evacuated,"Benton City, Washington",keyword_rule_weak_label
+4795,evacuation order lifted for town of roosevelt - washington times,10,2,test,evacuated,Breaking News,keyword_rule_weak_label
+4812,faan orders evacuation of abandoned aircraft at mma: faan noted that the action had become necessary due to re . . .,22,2,val,evacuation,,keyword_rule_weak_label
+4813,breaking: authorities have issued new mandatory evacuation notices for 25 homes to the north of the fire in roosevelt wa,20,2,train,evacuation,"Portland, Oregon",keyword_rule_weak_label
+4814,faan orders evacuation of abandoned aircraft at mma via,9,2,test,evacuation,,keyword_rule_weak_label
+4819,roosevelt wash . under evacuation order due to wildfire,9,2,train,evacuation,Washington,keyword_rule_weak_label
+4820,humboldt cty sheriff's office has issued an evacuation advisory for 10 residence in the lassics area . . . more info at,22,2,test,evacuation,"Eureka, California, USA",keyword_rule_weak_label
+4821,faan orders evacuation of abandoned aircraft at mma,8,2,train,evacuation,"Lagos, Nigeria",keyword_rule_weak_label
+4823,vietnam war patch us 71st evacuation hospital highland medics,9,2,train,evacuation,,keyword_rule_weak_label
+4825,. announces refunds after day two's extreme weather evacuation:,9,2,val,evacuation,,keyword_rule_weak_label
+4826,our mission to see the end of this movie last night after getting fire alarm evacuation,16,2,train,evacuation,Sydney Australia,keyword_rule_weak_label
+4828,update: bend fd says roofing co . workers accidentally cut through natural gas line in post office leading to evacuation for about a half-hr,24,2,train,evacuation,"Bend, Oregon",keyword_rule_weak_label
+4829,evacuation advisory for swayback ridge area . . voluntary-inciweb:mad river complex announcement wildfires calfires,14,2,train,evacuation,"Bend, Oregon",keyword_rule_weak_label
+4830,run out evacuation hospital indexing remedial of angioplasty dissertation at power elite hospitals dismayed: _,15,2,train,evacuation,,keyword_rule_weak_label
+4831,so the ifak is an 'individual first aid kit' to treat a single trauma victim i think i should create the efak or evacuation first aid kit,27,2,val,evacuation,"Chevy Chase, MD",keyword_rule_weak_label
+4833,bend post office roofers cut gas line prompt evacuation -,10,2,train,evacuation,USA,keyword_rule_weak_label
+4834,faan orders evacuation of abandoned aircraft at mma: faan noted that the action had become neces . . . via,20,2,train,evacuation,"Minna, Nigeria",keyword_rule_weak_label
+4835,i was looking for you guys on the live stream . i'm guessing the evacuation cost you the front ?,20,2,test,evacuation,EIU  Chucktown/LaSalle IL,keyword_rule_weak_label
+4836,faan gives owners of abandoned aircraft evacuation ultimatum via . they should probe them too !,16,2,train,evacuation,UK,keyword_rule_weak_label
+4840,updated rockyfire map with mandatory evacuation areas (red) advisory evacuation (yellow) 2 evac centers (green),15,2,train,evacuation,Northern California U.S.A.,keyword_rule_weak_label
+4842,update: the gnwt has just issued a voluntary evacuation order for cabin owners at pickerel lake near the reid . . .,22,2,train,evacuation,"Yellowknife, NT",keyword_rule_weak_label
+4843,evacuation order lifted for town of roosevelt wash . though residents warned to be ready to leave quickly,18,2,train,evacuation,"Bend, Oregon",keyword_rule_weak_label
+4845,my school just put the evacuation alarms on accidently with 2 different trial exams happening are you kidding me,19,2,train,evacuation,"sydney, australia",keyword_rule_weak_label
+4846,walking down the middle of michigan ave last sunday during lolla evacuation 2015,13,2,train,evacuation,United States,keyword_rule_weak_label
+4847,ink entertainment addresses veld evacuation and refund status trc via,10,2,train,evacuation,"ÌÏT: 43.631838,-79.55807",keyword_rule_weak_label
+4848,a voluntary evacuation is being recommended at this time for pickerel lake cabins across highway from reidlake fire says maca nwt yzf,22,2,train,evacuation,Yellowknife,keyword_rule_weak_label
+4849,ibrahimmisau : faan orders evacuation of abandoned aircraft at mma (via twitter,12,2,train,evacuation,"US: 44.414510,8.942499",keyword_rule_weak_label
+4850,evacuation order lifted for town of roosevelt:,7,2,train,evacuation,"Tri-Cities, Wash.",keyword_rule_weak_label
+4852,update: more from bend fd on how a natural gas line cut prompted evacuation of the main post office this afternoon,21,2,train,evacuation,"Bend, Oregon",keyword_rule_weak_label
+4854,reid lake fire prompts campground evacuation order,7,2,test,evacuation,,keyword_rule_weak_label
+4856,this is an evil generation rock and roll evacuation ! as far as the eye can see ! (hey hey hey hey ! ),24,2,train,evacuation,,keyword_rule_weak_label
+4857,good . play along with her . you may begin your operation with the death star . the evacuation is nearly complete .,23,2,train,evacuation,The Empire/First Order,keyword_rule_weak_label
+4858,evacuation drill at work . the fire doors wouldn't open so i got to smash the emergency release glass feelingmanly,20,2,train,evacuation,"Brisbane, Queensland",keyword_rule_weak_label
+4859,evacuation order lifted for roosevelt after wildfire misses town - komo news,12,2,train,evacuation,USA,keyword_rule_weak_label
+4860,gas leak forces evacuation in east saint john nb,9,2,val,evacuation,"Moncton, New Brunswick",keyword_rule_weak_label
+4973,its a tie dye explosion on ig help me . im drowning in tie dye,15,0,train,explosion,,keyword_rule_weak_label
+5191,govt allocating 1 . 3 bn for flood action: issue takes centre stage after fatalities in veneto,17,2,train,fatalities,"Caserta-Roma, Italy ",keyword_rule_weak_label
+5328,but put 'flood of fire' at the top of the list .,12,0,val,fire,Brooklyn,keyword_rule_weak_label
+5366,rfp: fire truck service body for f-450 (fire fighting rescue & safety equipment transporta . . .,17,2,train,fire%20truck,United States,keyword_rule_weak_label
+5403,philippines former township fire truck being used in philippines: _ of emergency equipment in cebu philippi . . .,19,0,train,fire%20truck,,keyword_rule_weak_label
+5409,jacksonville fire & rescue engine 58 - awesome truck ! - official jade fl . . . via,18,2,train,fire%20truck,,keyword_rule_weak_label
+5454,at the 999day emergency services display ! meeting the brave police firefighters and first responders that help keep us safe ! ? ? ? ? ? ? ? ?,29,0,train,first%20responders,"Stalybridge, Tameside",keyword_rule_weak_label
+5561,when fizzy is sitting in the regular flood seats . . . . . . and no one knows who she is . . . . .,27,0,train,flood,boston,keyword_rule_weak_label
+5563,jkl cancels flash flood warning for bell harlan knox [ky] wx,11,1,test,flood,United States,keyword_rule_weak_label
+5564,spot flood combo 53inch 300w curved cree led work light bar 4x4 offroad fog lamp - full re _,19,0,train,flood,New York,keyword_rule_weak_label
+5567,a [small] flood with big consequences,6,0,train,flood,"Warrandyte, Australia",keyword_rule_weak_label
+5569,homecoming queen killed on way home from the prom by flood waters ! socialnews,14,0,train,flood,"British Columbia, Canada",keyword_rule_weak_label
+5570,2pcs 18w cree led work light offroad lamp car truck boat mining 4wd flood beam - full rea _,19,0,val,flood,,keyword_rule_weak_label
+5573,it's been raining since you left me now i'm drowning in the flood you see i've always been a fighter but without you i give up,26,0,test,flood,,keyword_rule_weak_label
+5575,yet still why did so many fish die in the worldwide flood ? i wonder .,16,0,train,flood,Aix-en-Provence/Utrecht,keyword_rule_weak_label
+5576,and please don't flood poor 's mentions . he's put in his work !,14,0,train,flood,Philadelphia,keyword_rule_weak_label
+5579,12' 72w cree led work light bar alloy spot flood combo diving offroad 4wd boat - full read _,19,0,train,flood,New York,keyword_rule_weak_label
+5581,cue the flood of people 'ironically' calling you that,9,0,val,flood,"Niagara Falls, Ontario",keyword_rule_weak_label
+5582,motors hot deals 452 >> 10x 27w 12v 24v led work light flood lamp tractor truck suv utv a _,20,0,train,flood,USA,keyword_rule_weak_label
+5584,85v-265v 10w led warm white light motion sensor outdoor flood light pir lamp auc,14,0,test,flood,,keyword_rule_weak_label
+5586,iembot_hfo : at 10:00 am 2 nnw hana [maui co hi] county official reports coastal flood # _,18,0,train,flood,Hawaii USA,keyword_rule_weak_label
+5587,1 pair new 27w 4'' round led work driving flood light off-road atv utv - full read by ebay,19,0,train,flood,New York,keyword_rule_weak_label
+5589,internet basics: the flood defective intertissue is soul mate the milk trench host: guabxfv,14,0,val,flood,,keyword_rule_weak_label
+5590,bmx issues areal flood advisory for shelby [al] till aug 5 9:00 pm cdt,14,1,train,flood,,keyword_rule_weak_label
+5593,flood advisory in effect for shelby county in al until 9 pm alwx,13,1,test,flood,USA,keyword_rule_weak_label
+5594,rt grant_factory: grants funds weymouth meeting on seawalls and flood grants set for thursday night _,16,0,train,flood,United States,keyword_rule_weak_label
+5600,flood advisory issued august 05 at 4:28pm edt by nws wxky,11,1,test,flood,United States,keyword_rule_weak_label
+5602,survived the plague floated the flood just peeked our heads above the mud no one's immune deafening bells my god will we survive ourselves ?,25,0,val,flood,,keyword_rule_weak_label
+5604,flood prone waterways in westchester county now eligible for millions in state aid newyork -,15,0,val,flood,USA,keyword_rule_weak_label
+5605,chinese rescue team arrives in myanmar to help flood victims sittway,11,2,test,flood,Waddesdon,keyword_rule_weak_label
+5608,flood advisory issued august 05 at 7:10pm cdt until august 05 at 8:00pm cdt by nws: . . . the urban and . . . weather,26,1,train,flood,"Knoxville, TN",keyword_rule_weak_label
+5611,rock springs residents living off elk street continue to battle flooding issues after monday s rain storm . while _,20,0,train,flooding,"Rock Springs, WY",keyword_rule_weak_label
+5612,cuban leader extends sympathy to vietnam over flooding at,9,0,train,flooding,Vietnam,keyword_rule_weak_label
+5613,business at the sponge docks washed out by rain flooding:,10,0,train,flooding,"Tampa-St. Petersburg, FL",keyword_rule_weak_label
+5614,he thrusts a little more before he jams his cock deep inside her flooding her womb and pussy with his hot thick cum,23,0,train,flooding,,keyword_rule_weak_label
+5617,severe thunderstorms and flash flooding possible in the mid-south and midwest weather environment climate nature,15,1,val,flooding,USA,keyword_rule_weak_label
+5618,11:30a radar update: widespread showers/storms but moving over the same areas-minor flooding possible hunwx,14,0,train,flooding,"Huntsville, Alabama",keyword_rule_weak_label
+5619,tips to prevent basement leaks - create control joints to eliminate random cracking . homeimprovement flooding,16,0,train,flooding,"Nova Scotia, Canada",keyword_rule_weak_label
+5620,flooding ? ? ? ?,5,0,train,flooding,,keyword_rule_weak_label
+5621,no reported flooding po in the area . ten-4 . mmda,11,0,train,flooding,Metro Manila,keyword_rule_weak_label
+5622,flooding kills 166 displace over one million in pakistan - daily news & analysis yugvani,15,0,train,flooding,,keyword_rule_weak_label
+5624,flooding kills 166 displace over one million in pakistan - daily news & analysis,14,0,train,flooding,Breaking News,keyword_rule_weak_label
+5625,laos flooding -10 villages underwater world vision responding,8,0,train,flooding,Jakarta/Kuala Lumpur/S'pore,keyword_rule_weak_label
+5626,floods ukfloods - british trekkers rescued amid flash floods in himalayas: a group of british tr . . . - flooding,21,2,train,flooding,UK,keyword_rule_weak_label
+5627,maybe the plan is to dilute until they can safely say 'we have to start charging or it's over' . longs would come flooding in .,26,0,val,flooding,,keyword_rule_weak_label
+5629,ill only dm hotel info because people are flooding my notifications asking me for info,15,0,test,flooding,,keyword_rule_weak_label
+5631,when the waves are flooding the shore and i can't find my way home anymore that's when i look at you,21,0,train,flooding,I ACCEPT SONG REQUESTS,keyword_rule_weak_label
+5632,if flooding occurs in your home - how to stop mold growth via,13,0,test,flooding,"Honolulu, Hawaii",keyword_rule_weak_label
+5633,flooding of tracks caused derailment sa insubcontinent,7,0,val,flooding,,keyword_rule_weak_label
+5634,the chinese are flooding nyc market like never before,9,0,test,flooding,"Miami Beach, Fl",keyword_rule_weak_label
+5635,obama keeps 27 iraqi christian asylum seekers ndetention while flooding u . s . w/unscreened muslims: via,17,0,train,flooding,Republic of Texas,keyword_rule_weak_label
+5638,so grateful for all the support flooding in from dinner guests ! thank you all !,16,0,train,flooding,"California, USA",keyword_rule_weak_label
+5641,there some flash flooding in madison valleywx,7,1,test,flooding,Huntsville AL,keyword_rule_weak_label
+5642,is it too soon to start flooding your comment section with 'come to brazil' comments ? bc i will,19,0,train,flooding,? ,keyword_rule_weak_label
+5644,and last year it was just a lot of 'the drums are flooding' and 'janice i'm falling',17,0,train,flooding,don't run,keyword_rule_weak_label
+5645,: a burst water main causes major flooding at a birmingham hospital omg .,14,0,val,flooding,West Midlands,keyword_rule_weak_label
+5646,heavy rainfall and flooding in northern vietnam | situation report no . 2,13,1,train,flooding,Jakarta/Kuala Lumpur/S'pore,keyword_rule_weak_label
+5647,oh my god the memories are flooding back,8,0,test,flooding,,keyword_rule_weak_label
+5650,flood disaster burst water pipe floods apartments at nycha senior center - ny1: ny1burst water pipe floods a . . .,21,0,train,flooding,Global-NoLocation,keyword_rule_weak_label
+5651,lrt look at all my tom feels flooding back,9,0,val,flooding,,keyword_rule_weak_label
+5652,myanmar: msf assisting thousands as worst flooding in decades hits parts of myanmar,13,0,val,flooding,Jakarta/Kuala Lumpur/S'pore,keyword_rule_weak_label
+5653,residents in the central part of ocean city heard from engineers about flood mitigation options tuesday ocnj . . .,20,0,train,flooding,"Ocean City, NJ",keyword_rule_weak_label
+5654,wen i finally get the girl i want i'm flooding yall wit all pics of us rs tho,18,0,test,flooding,,keyword_rule_weak_label
+5655,i see her flooding at mad decent,7,0,train,flooding,belleville,keyword_rule_weak_label
+5656,monsoon flooding kills dozens in myanmar prompting calls for help -,11,0,train,flooding,"Kualar Lumpur, Malaysia",keyword_rule_weak_label
+5657,memorial unveiled for travis county deputy killed in sept . flooding: travis county sheriff greg hamilton joined _,18,0,val,flooding,"Austin, TX",keyword_rule_weak_label
+5658,flooding kills 166 displace over one million in pakistan at least 166 people have been killed and nearly 11 lakh _,21,0,train,flooding,,keyword_rule_weak_label
+5659,thankkk u all soo much for flooding my notificationsu my fella parsholics r superb & jus soo awesomelove love u all always frvrgrateful ? ?,25,0,train,flooding,"Nadiad ,Gujarat , India!!",keyword_rule_weak_label
+5663,myanmar flooding: heavy monsoon rains during the month of july have caused flooding flash floods and landsli . . .,20,1,train,floods,Adventist - Lesson Sabbath,keyword_rule_weak_label
+5672,disaster group stunned by floods,5,0,val,floods,Michigan,keyword_rule_weak_label
+5676,flood disaster bengal floods: cm mamata banerjee blames dvc bjp claims state failed to use . . . - economic t . . .,24,0,test,floods,Global-NoLocation,keyword_rule_weak_label
+5685,yep . during floods of 1999 or 2000 - clyde dam releasing every bit of water it could . most speccy ! ev charging your way ?,27,0,train,floods,"Timaru District, New Zealand",keyword_rule_weak_label
+5689,pagasa 7:12am: yellow warning - panay island guimaras negros . possible floods in low-lying areas & landslides in mountainous areas .,21,1,val,floods,Philippines,keyword_rule_weak_label
+5690,rt: 40hourfamine: in bangladesh government has not declared floods an emergency . worldvision will continue to m _,18,2,test,floods,,keyword_rule_weak_label
+5693,etp bengal floods: cm mamata banerjee blames dvc bjp claims state failed to use relief funds: even as flood w . . .,23,0,train,floods,Earth,keyword_rule_weak_label
+5765,pray ! for east coast forest fires ! pray ! that they be put out . pray ! for rain !,21,0,train,forest%20fires,,keyword_rule_weak_label
+5777,inciweb or update: rogue river-siskiyou national forest fires 8/5/15 12:00 pm (rogue river-siskiyou nf area _,16,0,train,forest%20fires,"Portland, Oregon",keyword_rule_weak_label
+5793,lzk issues severe thunderstorm warning [wind: 60 mph hail: 0 . 75 in] for sharp [ar] till 8:15 pm cdt wx,21,1,val,hail,United States,keyword_rule_weak_label
+5797,rnk issues severe thunderstorm warning [wind: 60 mph hail: 1 . 00 in] for rockingham stokes [nc] till aug 5 10:00 pm edt _,24,1,train,hail,United States,keyword_rule_weak_label
+5798,thank you so so much to everyone for posting the rain and hail outside . . . i had no idea guys ? ? ? ? ? ? ? ?,30,0,train,hail,,keyword_rule_weak_label
+5800,cue storm with massive wind and hail ! ! now a power outage in davidson county .,17,0,train,hail,Inside the Beltway (DC Area),keyword_rule_weak_label
+5815,new warning for central hills 1' hail 60 mph winds . not affecting sturgis but could later tonight . kotaweather,20,1,test,hail,"Rapid City, South Dakota",keyword_rule_weak_label
+5818,heavy rain and lightning overhead in oakridge sw calgary - at least it will melt the hail . . . . . . yycstorm abstorm,25,1,train,hail,,keyword_rule_weak_label
+5819,heavy rain and hail,4,1,train,hail,"Calgary, AB",keyword_rule_weak_label
+5826,unr continues severe thunderstorm warning [wind: 60 mph hail: < . 75 in] for weston [wy] and custer fall river pennington [sd] till 7:15 p _,26,1,train,hail,United States,keyword_rule_weak_label
+5833,hi-res doppler showing storm just ne of edmond is now severe with 1 . 25' hail and 60mph wind possible . okwx,22,0,train,hail,"Tulsa, Oklahoma",keyword_rule_weak_label
+5834,unr issues severe thunderstorm warning [wind: 60 mph hail: 0 . 75 in] for weston [wy] and custer fall river lawrence meade pennington [s _,25,1,train,hail,United States,keyword_rule_weak_label
+5835,well so much for outdoor postering mothernature hailstorm rain yycfringe killhard,11,0,test,hailstorm,"Calgary, AB",keyword_rule_weak_label
+5868,canada: hailstorm flash flooding slam calgary knocks out power to 20k customers,12,1,train,hailstorm,facebook.com/tradcatknights,keyword_rule_weak_label
+5874,this is why i am scared to leave my car under trees in a storm jamaicaplain boston hailstorm _,19,0,train,hailstorm,,keyword_rule_weak_label
+5882,photo: this is why i am scared to leave my car under trees in a storm jamaicaplain boston hailstorm . . .,22,0,train,hailstorm,,keyword_rule_weak_label
+5963,95-03 bmw 528 530 540 740 emergency warning hazard switch button oem 20177-707d,13,1,train,hazard,,keyword_rule_weak_label
+6000,dam gms olap world pres: how to recognize a hazardous waste and the multidimensional,14,0,train,hazardous,,keyword_rule_weak_label
+6024,eversafe emergency auto kit for all weather unsafe hazardous rush-hour gridlock jumper-ca _,13,0,train,hazardous,,keyword_rule_weak_label
+6038,heat advisory is in effect from 1 pm through 7 pm thursday . a building heat wave and increasing humidity . . . lawx,24,1,train,heat%20wave,USA,keyword_rule_weak_label
+6053,uae cool to mideast heat-wave; rain watch latest [video] ncms issues warning of thundering rain poor visibility . . . .,21,1,test,heat%20wave,Pacific Northwest,keyword_rule_weak_label
+6055,well i have seen it now ! that's a bummer . we've had this heat wave tho . . . 43'c ! ! i'd prefer the rain . . . :p,31,0,train,heat%20wave,Somewhere in Spain,keyword_rule_weak_label
+6064,heat wave is ending ! watching a big area of rain though . . . will impact part of the area . details now on nbc10 at 5pm,28,0,train,heat%20wave,,keyword_rule_weak_label
+6070,heat wave adding to the misery of internally-displaced gazans via,10,0,train,heat%20wave,International Action,keyword_rule_weak_label
+6076,yay good cooler weather for pdx . . abq nm is feeling the heat wave now bcuz my rain dances aren't working :-),23,0,val,heat%20wave,Albuquerque New Mexico,keyword_rule_weak_label
+6084,weather warfare follow the money this government is what our founding fathers were warning us about the weather . . .,21,1,test,heat%20wave,"Nebraska, Colorado & The GLOBE",keyword_rule_weak_label
+6336,hot c-130 specially modified to land in a stadium and rescue hostages in iran in 1980 prebreak best,18,2,train,hostages,Japan,keyword_rule_weak_label
+6339,c-130 specially modified to land in a stadium and rescue hostages in iran in 1980,15,2,train,hostages,"Cumming, GA",keyword_rule_weak_label
+6348,c-130 specially modified to land in a stadium and rescue hostages in iran in 1980 . . .,18,2,train,hostages,Heathrow,keyword_rule_weak_label
+6358,c-130 specially modified to land in a stadium and rescue hostages in iran in 1980: submitt . . . aviationaddicts,20,2,val,hostages,"Tampa, Fl",keyword_rule_weak_label
+6374,nigerian military rescue 178 hostages from boko haram - florida sentinel bulletin: florid . . . security terrorism,18,2,train,hostages,,keyword_rule_weak_label
+6385,you messed up my feeling like a hurricane damaged this broken home,12,0,test,hurricane,,keyword_rule_weak_label
+6388,hurricane guillermo live noaa tracking / looping wed . aug . 5th ~ ~,14,0,train,hurricane,"#1 Vacation Destination,HAWAII",keyword_rule_weak_label
+6389,haha i love hurricane because of you,7,0,test,hurricane,,keyword_rule_weak_label
+6395,bluedio turbine hurricane h bluetooth 4 . 1 wireless stereo headphones headset blk - full re _,17,0,val,hurricane,New York,keyword_rule_weak_label
+6396,did you see hurricane guillermo with meteoearth ?,8,0,test,hurricane,Berlin - Germany,keyword_rule_weak_label
+6398,they should name hurricanes with black people names . i'd be terrified of hurricane shanaynay !,16,0,test,hurricane,,keyword_rule_weak_label
+6400,hurricane 30stm quem lembra,4,0,val,hurricane,@potteratthedisc,keyword_rule_weak_label
+6402,hurricane ? ? sick !,5,0,train,hurricane,"Anderson, SC",keyword_rule_weak_label
+6403,ad miles 'hurricane of fun : the making of wet hot',11,0,train,hurricane,"The Epicenter, and Beyond",keyword_rule_weak_label
+6404,hurricane dancers: the first caribbean pirate shipwreck margarita engle - henry holt and co . (byr) .,17,0,val,hurricane,"Books Published, USA",keyword_rule_weak_label
+6405,cape coral city leaders take part in mock hurricane training,10,0,val,hurricane,,keyword_rule_weak_label
+6406,be careful during hurricane season ? ? ? ?,9,0,val,hurricane,??? ??? ????? ??? ???.,keyword_rule_weak_label
+6412,nowplaying rock you like a hurricane - scorpions,8,0,train,hurricane,Mexico City,keyword_rule_weak_label
+6413,the hurricane mixxtail kinda tastes like the watermelon four loko . ? ? ? ? ? ? ? ?,19,0,train,hurricane,,keyword_rule_weak_label
+6416,grace: here are damage levels usa style . . taiwan china world hurricane/typhoon ratings/categories defined again,16,0,train,hurricane,USA,keyword_rule_weak_label
+6417,angelriveralib _ snowden 'may have' broken laws ? hurricane katrina may have caused some damage . without snowden h _,20,0,train,hurricane,,keyword_rule_weak_label
+6418,hwrf absolutely lashes taipei with hurricane force winds high storm surge and 20' of rain . not good news at all ! ! !,24,0,test,hurricane,,keyword_rule_weak_label
+6420,wait i thought fecal hurricane was on scifi ? maybe that was turdnado . i've been forgeting up a shit storm lately .,23,0,test,hurricane,,keyword_rule_weak_label
+6422,entertain this thought for a moment: diarrhea hurricane,8,0,train,hurricane,Chicopee MA,keyword_rule_weak_label
+6427,kick hurricane seriously simple websites: looking for a seriously simple program to,12,0,test,hurricane,,keyword_rule_weak_label
+6430,mr . t stopped wearing gold chains in 2005 because he thought it would be an insult to the people who lost everything after hurricane katrina,26,0,train,hurricane,NYC,keyword_rule_weak_label
+6434,ashley and i on going to hurricane harbor friday . ? ?,12,0,train,hurricane,,keyword_rule_weak_label
+6546,enter the world of extreme diving 9 stories up and into the volga river,14,0,val,injury,,keyword_rule_weak_label
+6585,a laois girl advertised for a new friend to replace her loved-up bff and has been inundated,17,0,test,inundated,Ireland,keyword_rule_weak_label
+6586,probably . we are inundated with them most years !,10,0,val,inundated,"England & Wales Border, UK",keyword_rule_weak_label
+6588,most of us ddnt get this english rt : the world is inundated with ostentatious people stay woke !,19,0,val,inundated,"Zeerust, South Africa",keyword_rule_weak_label
+6591,1st wk of rainier diet and my street seward park ave is inundated w/ bypass traffic so what's your plan ?,21,0,test,inundated,Seattle,keyword_rule_weak_label
+6593,body shops inundated with cars dented by hail . . . good news insurance pays . . . bad news : you are stuck with deductible ! wcvb,28,0,train,inundated,"Boston, Massachusetts",keyword_rule_weak_label
+6594,hi sorry for the delay . slightly inundated with applications at the mo but we have yours and will get back to you asap !,25,0,train,inundated,Bristol,keyword_rule_weak_label
+6597,i presume my timeline will be inundated with 'soggy bottom' & lashings of 'moist' tweets now ! :-d,18,0,train,inundated,The Main ,keyword_rule_weak_label
+6598,do texts use data ? she was inundated by a group text yesterday .,14,0,train,inundated,The windy plains of Denver,keyword_rule_weak_label
+6601,brother you don't want my friendship-you want to add your commercials on my posts . frankly i'm inundated with this crap daily .,23,0,train,inundated,"Sunbury, Ohio",keyword_rule_weak_label
+6602,thanks ! i know you all get inundated . have a good one !,14,0,train,inundated,"Sunnyvale, CA",keyword_rule_weak_label
+6603,perhaps you should change you name to yahoo doesn't care . are you so inundated with complaints that you cannot respond to me ? ?,25,0,train,inundated,Land of Lincoln,keyword_rule_weak_label
+6604,let people surf ! hi is no waimea bay . it's not like the beach is or ever will be inundated with surfers,23,0,train,inundated,,keyword_rule_weak_label
+6605,fb page of bushman safari's zimbabwe the company that palmer used 2 kill cecil is inundated with negative commentes,19,0,train,inundated,Kenya,keyword_rule_weak_label
+6607,kids are inundated with images and information online and in media and have no way to deconstruct . - kerri sackville tms7,22,0,train,inundated,Australia,keyword_rule_weak_label
+6608,i'm amazed you have not been inundated mistress .,9,0,test,inundated,,keyword_rule_weak_label
+6610,that sounds like the perfect bread ! i'll hit up trader joes this wknd ? ? . not really lol already being inundated with,24,0,train,inundated,NYC&NJ,keyword_rule_weak_label
+6611,listening to my grandad talk about his holiday is great but i don't want to be inundated with train photos ? ? ? ?,24,0,train,inundated,swindon,keyword_rule_weak_label
+6613,you'll be inundated with gifts of banana malt loaf now ? ? worm,13,0,test,inundated,Croydon,keyword_rule_weak_label
+6614,as a result of heavy rains in bangladeshaffected lands are inundated by flood waters-land looks like rivers at high tide bangladeshflood,21,1,train,inundated,Asia,keyword_rule_weak_label
+6616,probably being inundated with this question now but who's coming to creamfields ? ? ? (please say all 3) mainstage,20,0,val,inundated,Coventry,keyword_rule_weak_label
+6617,can see you and inundated atm so just wanted to say well done . you are doing a grand job kro,21,0,train,inundated,,keyword_rule_weak_label
+6619,inundated with westeros between storm of swords as a book on tape & finishing s5 of game of thrones i don't know my starks from my greyjoys .,28,0,val,inundated,"Toronto, ON, Canada",keyword_rule_weak_label
+6621,myanmar's president urged people to leave a low-lying southern delta region on thursday with rain water that has inundated much of the coun _,24,0,train,inundated,Singapore,keyword_rule_weak_label
+6622,you would get inundated ! !,6,0,train,inundated,"Manchester, England",keyword_rule_weak_label
+6624,this is set to become a huge one month wonder . (and then pornhub will be inundated . . . . ),22,0,test,inundated,"San Jose, CA, USA",keyword_rule_weak_label
+6625,inundated with employee holiday request paperwork ? our cloud based hr software will help simplify your staffing logistics .,19,0,train,inundated,"UK, Republic of Ireland and Australia",keyword_rule_weak_label
+6626,brace yourself by sunday evening you will inundated with thousands of calls from depressed fans,15,0,train,inundated,Milton keynes,keyword_rule_weak_label
+6627,as you can imagine we're inundated with requests each week for samples & as much as we'd love to be able to send sweets 1/2,25,0,train,inundated,Pontefract UK,keyword_rule_weak_label
+6628,pfft ! i wish i had a bot like that . instead i'm daily inundated with 140 characters of the same unhinged machismo bullshit .,25,0,train,inundated,the Dirty D,keyword_rule_weak_label
+6629,tech data overload: the growing demand for context and structure: in a world inundated with information . . . news,20,0,train,inundated,United States,keyword_rule_weak_label
+6630,[withering] to death . is an album found when he [undermine]d his backyard because his cat [inundated] the floor [mustering] cat food .,23,0,test,inundated,,keyword_rule_weak_label
+6631,and suddenly i'm inundated with research .,7,0,test,inundated,"Paducah, KY",keyword_rule_weak_label
+6632,already expecting to be inundated w/ articles about trad authors' pay plummeting by early next year but if this is true it'll be far worse,25,0,train,inundated,Maryland,keyword_rule_weak_label
+6634,you're correct it is coming from both sides . maybe i'm just friends on fb w more rep so my feed is inundated w false claims . . .,29,0,val,inundated,,keyword_rule_weak_label
+6635,megalpolis area petting party shiver fear instant . . . . global inundation overflow was commencement write ? ? ?,20,1,train,inundation,Asia European Continent Korea ,keyword_rule_weak_label
+6636,there are a few reasons for that but one of them is the constant drake inundation . extremely annoying . if drake lands us a,25,0,test,inundation,,keyword_rule_weak_label
+6637,oh no . the boots & hearts social media inundation is starting . please no,15,0,train,inundation,,keyword_rule_weak_label
+6638,potential storm surge flooding map by national hurricane center,9,0,train,inundation,"Athens, Greece",keyword_rule_weak_label
+6642,punjab government flood relief platform: realtime information on inundation damages rescue efforts & travel alerts,15,2,train,inundation,,keyword_rule_weak_label
+6643,well unfortunately for my followers stage pics came in today . advanced apologies for the inundation _,17,0,train,inundation,Proudly Canadian!,keyword_rule_weak_label
+6644,plus you're well out of the inundation zone amirite ?,10,0,train,inundation,Cascadia,keyword_rule_weak_label
+6646,sorry but that mousse inundation was fuckin hilarious,8,0,val,inundation,"County Durham, United Kingdom",keyword_rule_weak_label
+6647,beyond all bounds; till inundation rise,6,0,train,inundation,,keyword_rule_weak_label
+6648,sprinklers: faq about lawn inundation systems answered ebb,8,0,train,inundation,,keyword_rule_weak_label
+6668,latest: landslide kills three near venice after heavy rain,9,1,train,landslide,Europe,keyword_rule_weak_label
+6687,so when you're caught in a landslide i'll be there for you and in the rain give you sunshine i'll be there for you,24,0,train,landslide,The Circle of Life,keyword_rule_weak_label
+6695,landslide kills three near venice after heavy rain,8,1,train,landslide,,keyword_rule_weak_label
+6735,a river of lava in the sky this evening ! it was indeed a beautiful sunset sky tonight . (8-4-15),20,0,train,lava,"San Jose, CA",keyword_rule_weak_label
+6772,heavy rain gusty winds and vivid lightning moving east through the triad now .,14,1,train,lightning,"Greensboro, North Carolina",keyword_rule_weak_label
+6876,urgent ! save the salt river wildhorses ! mass murder by the very ppl supposed to protect them ? -->,20,0,train,mass%20murder," Queensland, Australia",keyword_rule_weak_label
+7046,<meltdown of proportions commences i manage to calm myself long enough to turn the waters to hot and wait for the steam to cloud my vision-,26,0,test,meltdown,The Universe,keyword_rule_weak_label
+7158,it's not pretty ? ? disaster gbbo mudslide,8,0,train,mudslide,Tring ,keyword_rule_weak_label
+7163,flood and mudslide warning for east fjords | iceland review icelandreview via,12,1,train,mudslide,,keyword_rule_weak_label
+7195,she's a natural disaster she's the last of the american girls ? ?,13,0,train,natural%20disaster,home ,keyword_rule_weak_label
+7196,'up to 40% of businesses affected by a natural or man-made disaster never reopen',14,0,train,natural%20disaster,"Orlando/Cocoa Beach, FL",keyword_rule_weak_label
+7197,they're refugees: 'people who have been forced to leave their country in order to escape war persecution or natural disaster',20,0,val,natural%20disaster,Birmingham and the Marches,keyword_rule_weak_label
+7198,on the sneak america has us spoiled . a natural disaster will humble niggas .,15,0,train,natural%20disaster,Los Angeles,keyword_rule_weak_label
+7199,ra l sends a message of condolence to vietnam following natural disaster,12,0,val,natural%20disaster,MÌ©xico D.F.,keyword_rule_weak_label
+7201,lol natural disaster/hospital crisis something is needed to get rid of some cast members . . . .,18,0,val,natural%20disaster,Canada,keyword_rule_weak_label
+7202,rationing of food and water may also become necessary during an emergency such as a natural disaster or terror attack .,21,0,train,natural%20disaster,New York,keyword_rule_weak_label
+7203,some people are really natural disaster too,7,0,val,natural%20disaster,Greenwich Meridian,keyword_rule_weak_label
+7204,what natural disaster are you when you get angry ?,10,0,train,natural%20disaster,,keyword_rule_weak_label
+7205,coming later this year~ 'the man that tattooed women . ' a novel based on a real serial killer from arkansas & a natural disaster . nola,27,0,train,natural%20disaster,USA,keyword_rule_weak_label
+7206,ra l sends a message of condolence to vietnam following natural disaster: on behalf of the cuban government an . . .,22,0,test,natural%20disaster,,keyword_rule_weak_label
+7208,make natural disaster reporting more interesting by adding 'the' to headlines such as 'rescuers are sifting through the wreckage',19,2,train,natural%20disaster,"Newcastle Upon Tyne, England",keyword_rule_weak_label
+7210,expert prepper: financial collapse natural disaster failed grid . . .,11,2,train,natural%20disaster,,keyword_rule_weak_label
+7211,rise up like a natural disaster we take the bat and then we take back the town ? ? ? ?,21,0,train,natural%20disaster,liaÛ¢daniÛ¢laura,keyword_rule_weak_label
+7213,its only getting colder and colder and faster and faster and when i first realized it it was like a natural disaster,22,0,val,natural%20disaster,"Oneonta, NY/ Staten Island, NY",keyword_rule_weak_label
+7214,anyway 2 me ? mateo just doesnt exist ? hes a mirage a pointless addition to our generation . a human natural disaster . im sorry but its true,29,0,train,natural%20disaster,in my own personal hell (:,keyword_rule_weak_label
+7215,natural disaster news stories about natural disaster - page 1 | newser,12,0,train,natural%20disaster,"Jonesboro, AR MO, IOWA USA",keyword_rule_weak_label
+7218,and you're loving me like water slipping through my fingers such a natural disaster love,15,0,train,natural%20disaster,sÌ£o luis,keyword_rule_weak_label
+7221,i added a video to a playlist natural disaster survival - hug by a guest ! ! on roblox,19,0,train,natural%20disaster,"Aurora, IL",keyword_rule_weak_label
+7224,suncorp net profit rises to $1 . 13 billion in worst year of natural disaster claims,16,0,train,natural%20disaster,,keyword_rule_weak_label
+7226,of course the one day i have to dress professionally aka unsensibly for class is the day i have try and outrun a natural disaster !,26,0,train,natural%20disaster,on to the next adventure,keyword_rule_weak_label
+7227,*books a flight to burma when country is enduring political unrest and a natural disaster* no wonder it was so cheap ay,22,0,test,natural%20disaster,,keyword_rule_weak_label
+7228,askconnor if you were a natural disaster what would you be ?,12,0,test,natural%20disaster,,keyword_rule_weak_label
+7229,we have overrun a natural disaster survival server !,9,0,train,natural%20disaster,"Suburban Detroit, Michigan",keyword_rule_weak_label
+7232,hello natural hazards/disaster recovery & emergency management ppl can u recommend good hashtags to follow or send me links of good reads ?,23,0,train,natural%20disaster,,keyword_rule_weak_label
+7234,a world in which people aren't dying from natural and supernatural disaster and war most likely .,17,0,train,natural%20disaster,"Pennsylvania, USA",keyword_rule_weak_label
+7235,savings and sewing in guatemala: savings and sewing in guatemala . when a natural disaster hit seamstress elvia . . .,21,0,train,natural%20disaster,Guatemala,keyword_rule_weak_label
+7236,patriot survival guide: do you know how survive when the governments collapse or other natural disaster happens ?,18,2,train,natural%20disaster,,keyword_rule_weak_label
+7244,is your team ready for a natural disaster a violent client or power outage ? contact ready vet to design . . .,23,0,train,natural%20disaster,"Littleton, CO",keyword_rule_weak_label
+7247,beforeitsnews : 3 former executives to be prosecuted in fukushima nuclear disaster _,13,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7248,alarming rise in dead marine life since the fukushima nuclear disaster:,11,0,val,nuclear%20disaster,Austin TX,keyword_rule_weak_label
+7250,nuclear deal disaster . irandeal nonucleariran badirandeal,7,0,test,nuclear%20disaster,,keyword_rule_weak_label
+7251,if i tweet daily fukushima japan global nuclear disaster& chernobyl ppl dont care there is no hope 4 humanity c>,20,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7252,? fukushima ? tepco ? fukushima nuclear disaster | increased thyroid cancer in us - integrative cancer answers,18,0,test,nuclear%20disaster,The Netherlands,keyword_rule_weak_label
+7253,though serious natural disaster increased in japanjapan nuclear safety standard is far inferior to us standard . anonymous nytimes,19,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7254,physical sense helps preserve memories of 2011 triple disaster (8/4 ajw) jishin_e nuclear minamisoma,14,0,train,nuclear%20disaster,"New York, NY",keyword_rule_weak_label
+7255,another disaster waiting to happen and your allowing it ? ? ?,12,0,train,nuclear%20disaster,Marbella. Spain,keyword_rule_weak_label
+7256,then have the biggest nuclear disaster to ever have happened,10,0,val,nuclear%20disaster,"Hammersmith, London",keyword_rule_weak_label
+7261,3 former executives to be prosecuted in fukushima nuclear disaster,10,0,train,nuclear%20disaster,Inexpressible Island ,keyword_rule_weak_label
+7264,can we have a public vote for the next annual village disaster ? i want an isis strike or a nuclear accident & end this forever,26,0,train,nuclear%20disaster,"Ashford, Kent, United Kingdom",keyword_rule_weak_label
+7266,fukushima nuclear disaster | increased thyroid cancer in u . s .,12,0,test,nuclear%20disaster,,keyword_rule_weak_label
+7267,the people who tweet and care about japan fukushima nuclear disaster are not the problem those who ignore are the problem .,22,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7268,we want to see no more hiroshima and nagasaki nuclear bomb disaster in this beautiful world . lets be peaceful & save this human civilization .,26,0,test,nuclear%20disaster,"Dhaka, Bangladsh",keyword_rule_weak_label
+7270,japan fukushima the most serious man made disaster in human history . . . a marker of radiation brain damage,20,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7272,refugees of nuclear disaster in western japan will be beyond 500 thousand at least . afp guardian wps nytimes,19,0,test,nuclear%20disaster,,keyword_rule_weak_label
+7275,trump can say nice things about nuclear power but 'drill baby drill ! ' + agw denial = policy disaster for nuclear power .,24,0,train,nuclear%20disaster,"Sacramento, California",keyword_rule_weak_label
+7277,closing their eyes to disaster ! state department unaware of reports iran is sanitizing nuclear sites,16,0,train,nuclear%20disaster,#goingdownthetoilet Illinois,keyword_rule_weak_label
+7278,3 former executives to be prosecuted in fukushima nuclear disaster . the story: via,14,0,train,nuclear%20disaster,San Francisco Bay Area,keyword_rule_weak_label
+7280,any disaster impairs mental health especially in vulnerable individuals . . .,12,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7281,fukushima 'mutant vegetable' images sweep across the region two years after nuclear disaster via,14,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7285,fukushima: the story of a nuclear disaster,7,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7286,the president spoke of kennedy's diplomacy to avert nuclear disaster during the cold war to bolster his own pitch for congress' approval,22,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7287,573 deaths have been certified by the government as nuclear disaster-related deaths,12,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7289,70 years ago today 1945 hiroshima was the first nuclear atomic bomb leaving a major disaster in the wake .,20,0,test,nuclear%20disaster,Under Santa Barbara Skies,keyword_rule_weak_label
+7290,if u care about life on land sea & in air then dont pretend & ignore the nuclear disaster in japan fukushima this is a global problem,27,0,test,nuclear%20disaster,,keyword_rule_weak_label
+7291,nuclear policy of japan without responsibility about nuclear disaster will repeat same failure . annonymous guardian nytimes reuters,18,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7292,over half of poll respondents worry nuclear disaster fading from public consciousness #fukushima,13,0,val,nuclear%20disaster,Fukushima city Fukushima.pref,keyword_rule_weak_label
+7294,chernobyl disaster - wikipedia the free encyclopedia don't you just love the nuclear technology it's so glorious,17,0,train,nuclear%20disaster,,keyword_rule_weak_label
+7895,nuclear emergency current usa radiation levels monitoring site,8,0,test,radiation%20emergency,"LP, MN USA",keyword_rule_weak_label
+7897,i liked a video us canada radiation update emergency fishing closures,11,0,val,radiation%20emergency,,keyword_rule_weak_label
+7898,wipp emergency activated because of slightly elevated levels of radiation . sejorg,12,0,val,radiation%20emergency,,keyword_rule_weak_label
+7902,some of worst radiation exposure from fukushima meltdown happened 47km northwest-proof that small emergency planning zones don t cut it,20,0,train,radiation%20emergency,"Burlington, VT",keyword_rule_weak_label
+7903,doe's wipp facility in nm investigating a site filter radiation reading; has activated its emergency ops center; says no offsite release .,22,0,train,radiation%20emergency,"La Grange Park, IL",keyword_rule_weak_label
+7905,radioactive box quarantined - israel s ashdod port was evacuated when emergency teams discovered radiation emittin . . .,19,2,train,radiation%20emergency,Warszawa,keyword_rule_weak_label
+7906,radiation emergency preparedness starts with knowing to: get inside stay inside and stay tuned via,15,0,train,radiation%20emergency,"Washington, DC",keyword_rule_weak_label
+7907,who else wants documents radiation emergency procedures 06 24 09 radiation emergency procedures 06 24 09,16,0,val,radiation%20emergency,,keyword_rule_weak_label
+7908,ccot tcot radiation nuclear emergency tracking center,7,0,test,radiation%20emergency,#MayGodHelpUS,keyword_rule_weak_label
+7913,wow what beauty lies within every storm . taken today after a rainstorm at a&b pipeliners,16,0,test,rainstorm,Alberta ,keyword_rule_weak_label
+7938,rain rain go away . . . a soaker is on the way ------> <-----,15,0,train,rainstorm,"Pennsylvania, USA",keyword_rule_weak_label
+7944,lizzie363 i drove thru deep water in a flash flood--rainstorm repair cost $14000 . 25 yrs later people still thnk cars float ! ! !,25,1,train,rainstorm,"Sicamous, British Columbia",keyword_rule_weak_label
+8060,policyholders object to clico rescue plan,6,2,val,rescue,Trinidad & Tobago,keyword_rule_weak_label
+8061,don't panik ! kelbytomlinson to the rescue !,8,2,train,rescue,SF Bay Area,keyword_rule_weak_label
+8062,coastal german shepherd rescue oc shared a link . . . animalrescue |,13,2,train,rescue,#HarleyChick#PJNT#RunBenRun,keyword_rule_weak_label
+8064,ud: rescue (structural collapse) - scott road @ ypres road york (14 trucks),13,2,train,rescue,"Toronto, Ontario",keyword_rule_weak_label
+8065,rescue of the day: it s world cat day saturday aug 8th black black/white cats just $5 newbeginningsanimalrescue,18,2,train,rescue,New Jersey,keyword_rule_weak_label
+8066,i'm on 2 blood pressure meds and it's still probably through the roof ! long before the ppact story broke i was involved in animal rescue,26,2,train,rescue,Big NorthEast Litter Box,keyword_rule_weak_label
+8068,coastal german shepherd rescue oc shared a link: 'ecstatic rescued racco . . . animalrescue,15,2,train,rescue,,keyword_rule_weak_label
+8069,suggs & vivian to the rescue ! psychrewatch,8,2,train,rescue,,keyword_rule_weak_label
+8070,any lengths to rescue a cat in need !,9,2,train,rescue,"Surry Hills, Sydney",keyword_rule_weak_label
+8071,last chance animal rescue has 3 new posts . animalrescue |,11,2,val,rescue,Sand springs oklahoma,keyword_rule_weak_label
+8074,sammy and todd always to the rescue may not be in uniform but still to the rescue lmao . forever kfc fam .,23,2,train,rescue,,keyword_rule_weak_label
+8079,lunch for the crew is made . night night it's been a long day ! ~peace~love~rescue~,16,2,test,rescue,USA,keyword_rule_weak_label
+8083,mary coming to troy rescue . ? ? ? ? ? ?,12,2,train,rescue,Wanderlust,keyword_rule_weak_label
+8085,flood-zone : general raheel sharif visits chitral: he also lauded the efforts of fwo army troops and army aviation in rescue opera . . .,25,2,test,rescue,Karachi,keyword_rule_weak_label
+8087,last chance animal rescue has 3 new posts . animalrescue,10,2,train,rescue,,keyword_rule_weak_label
+8088,how many dogs do you have and are they all rescue dogs ?,13,2,train,rescue,,keyword_rule_weak_label
+8089,officials rescue 367 migrants off libya; 25 bodies found - fox news news,13,2,test,rescue,India,keyword_rule_weak_label
+8116,a brave little dog gets rescued from the river . his recovery will inspi . . . via,18,2,val,rescued,southern california,keyword_rule_weak_label
+8738,the tribe just keeps sinking everyday it seems faster . as for this year it's been a titanic disaster .,20,0,test,sinking,Rhyme Or Reason?,keyword_rule_weak_label
+8754,whelen model 295ss-100 siren amplifier police emergency vehicle - full read by ebay,13,0,val,siren,New York,keyword_rule_weak_label
+8776,pharma overloaded with a loud cry like an emergency siren . . . . fucking .,16,0,test,siren,,keyword_rule_weak_label
+8944,gamefeed warcraft 3-inspired mode likely hitting heroes of the storm: let's go back to the beginning . videogame,18,0,train,storm,,keyword_rule_weak_label
+8946,so this storm just came out of no where . . fuck me its cool,15,0,test,storm,,keyword_rule_weak_label
+8948,new on ebay uk star wars storm trooper pop ! vinyl bobble head figure pop funko,16,0,train,storm,,keyword_rule_weak_label
+8949,how to prepare your property for a storm:,8,0,val,storm,"Chicago, IL",keyword_rule_weak_label
+8952,kesabaran membuahkan hasil indah pada saat tepat ! life isn't about waiting for the storm to pass it's about learning to dance in the rain .,26,0,train,storm,,keyword_rule_weak_label
+8953,comeeeee ! . . . but why is it bout to storm tho,13,0,train,storm,mind ya business,keyword_rule_weak_label
+8955,rt : 'the person who dances with you in the rain will most likely walk with you in the storm . ' -anonymous,23,0,train,storm,nor*cal,keyword_rule_weak_label
+8956,the secrets of the storm vortex the lightning catcher book _ : .,13,0,train,storm,,keyword_rule_weak_label
+8957,is it bad to say that i'm kinda afraid of storms and we are in a storm ? ? ? ? help,22,0,train,storm,,keyword_rule_weak_label
+8959,looks like a perfect storm-free evening coming up . check out the outdoor happenings featured at eventspalmbeach .,18,0,val,storm,"West Palm Beach, Florida",keyword_rule_weak_label
+8961,crazy storm hit and i'm trapped inside a hobby lobby ama,11,2,train,storm,"Atlanta, GA",keyword_rule_weak_label
+8962,it's okay i welcome the rain . gave you all the storm that you could weather .,17,0,train,storm,philly,keyword_rule_weak_label
+8963,nike golf storm fit golf jacket black medium sportinggoods,9,0,train,storm,,keyword_rule_weak_label
+8966,what tropical storm ? guillermo by hawaiianpaddlesports,7,0,train,storm,,keyword_rule_weak_label
+8967,new item: pillow covers any size pillow cover grey pillow pillows premier prints lulu storm grey by mypillowstudio _,19,0,train,storm,"Wilmington, NC",keyword_rule_weak_label
+8968,this storm ? ? ? ?,6,0,train,storm,"Johns Creek, GA",keyword_rule_weak_label
+8969,storm and silence by,4,0,train,storm, New Delhi ,keyword_rule_weak_label
+8970,a warcraft 3-inspired mode is likely coming to heroes of the storm,12,0,train,storm,,keyword_rule_weak_label
+8971,the storm prediction center has expanded the 'slight risk' area to include more of central nc . twcnews ncwx,19,0,val,storm,"Raleigh, NC",keyword_rule_weak_label
+8972,'calgarians stunned by storm insurance companies busy handling calls' abstorm,10,0,train,storm, Alberta,keyword_rule_weak_label
+8973,finna storm . fuck my back boutta start hurting like a mf ? ? ? ? ? ?,18,0,test,storm,#BossNation!,keyword_rule_weak_label
+8974,ready for this storm,4,0,train,storm,pittsboro,keyword_rule_weak_label
+8976,severe t-storm warning for union county ~3:45pm . top threats include heavy rain lightning & damaging winds .,18,1,train,storm,"Charlotte, NC",keyword_rule_weak_label
+8978,ice cream + cupcake wars + storm = content sara,10,0,train,storm,NC || OR,keyword_rule_weak_label
+8979,nasahurricane ? eastern pacific *full update* satellite sees formation of eastern pacific's tropical storm hilda th _,17,0,train,storm,EspaÌ±a - Spain - Espagne,keyword_rule_weak_label
+8980,the sky's clear the storm has passed but it's still raining in my head,14,0,train,storm,#PhanTrash,keyword_rule_weak_label
+8985,nasa announced that a massive solar storm is headed straight for us:,12,0,train,storm,"Cleveland, OH - San Diego, CA",keyword_rule_weak_label
+8986,my last two weather pics from the storm on august 2nd . people packed up real fast after the temp dropped and winds picked up .,26,0,train,storm,"Ottawa, Ontario",keyword_rule_weak_label
+8987,doves - the storm + greatest denier (electric proms pt4),10,0,train,storm,Santiago de Chile,keyword_rule_weak_label
+8989,today s storm will pass; let tomorrow s light greet you with a kiss . bask in this loving warmth; let your soul return to bliss .,27,0,train,storm,,keyword_rule_weak_label
+9149,islamic state claims suicide bombing at saudi arabian mosque: ten members of emergency service . . . via,18,0,train,suicide%20bomber,Helsinki,keyword_rule_weak_label
+9290,the seven seas - wreck of the giannis d . sunk after hitting a submerged reef in the _,19,2,train,sunk,,keyword_rule_weak_label
+9317,escaping her captors was the 1st step . now she must survive a deadly storm & a wild-looking recluse . betrayed books,22,0,test,survive,Kansas,keyword_rule_weak_label
+9571,random wind gust just came through gander . probably some convection outflow . haven't heard any thunder yet but a few spits of rain nlwx,25,0,train,thunder,Gander NF,keyword_rule_weak_label
+9580,heavy rain frequent thunder and gusty winds moving into parts of uptown and midtown . - cn,17,1,train,thunder,,keyword_rule_weak_label
+9582,thunder lightening torrential rain and a power cut !,9,0,train,thunder,,keyword_rule_weak_label
+9608,severe thunderstorm warning for oklahoma county until 10:30pm . radar here: okwx,12,1,train,thunderstorm,"Tulsa, Oklahoma",keyword_rule_weak_label
+9612,severe thunderstorm warning issued august 05 at 9:31pm cdt until august 05 at 10:15pm cdt by nws,17,1,test,thunderstorm,,keyword_rule_weak_label
+9613,oun cancels severe thunderstorm warning for lincoln logan oklahoma [ok] wx,11,1,test,thunderstorm,United States,keyword_rule_weak_label
+9616,usnwsgov severe weather statement issued august 05 at 10:38pm edt by nws: . . . the severe thunderstorm warning . . .,22,1,train,thunderstorm,Jupiter,keyword_rule_weak_label
+9618,tired it' 5:36 am . woke up to a thunderstorm lightning and rain . how are you ?,18,0,test,thunderstorm,,keyword_rule_weak_label
+9620,nws has continued a severe thunderstorm warning for oklahoma-ok until 10:30 pm,12,1,train,thunderstorm,"El Dorado, Arkansas",keyword_rule_weak_label
+9625,the national weather service in little rock has issued a * severe thunderstorm warning for . . . van buren county in _,23,1,train,thunderstorm,East Coast,keyword_rule_weak_label
+9636,severe thunderstorm warning including russellville ar clarksville ar dardanelle ar until 10:15 pm cdt,14,1,train,thunderstorm,,keyword_rule_weak_label
+9639,severe thunderstorm warning for oklahoma county until 10:30pm . okwx,10,1,train,thunderstorm,Oklahoma City,keyword_rule_weak_label
+9640,falling asleep to the sounds to thousands of river plate fans in the stadium and a thunderstorm . vivaargentina,19,0,train,thunderstorm,,keyword_rule_weak_label
+9643,severe thunderstorm warning for oklahoma county in ok until 10:30pm cdt . okwx,13,1,train,thunderstorm,"Tornado Alley, USA ",keyword_rule_weak_label
+9644,oun continues severe thunderstorm warning for oklahoma [ok] till 10:30 pm cdt,12,1,train,thunderstorm,,keyword_rule_weak_label
+9645,severe thunderstorm warning including midwest city ok del city ok choctaw ok until 10:30 pm cdt,16,1,test,thunderstorm,"Nicoma Park, OK",keyword_rule_weak_label
+9653,9:35 pm . thunderstorm . no rain . 90 degrees . this weather weird .,15,0,train,thunderstorm,Killafornia made me ,keyword_rule_weak_label
+9655,nws has issued a severe thunderstorm warning for oklahoma-ok until 10:30 pm,12,1,train,thunderstorm,"El Dorado, Arkansas",keyword_rule_weak_label
+9669,(ar) severe thunderstorm warning issued august 05 at 9:12pm cdt until august 05 at 9:45pm cdt by nws arwx,19,1,train,tornado,Midwest,keyword_rule_weak_label
+9670,second tornado confirmed in sunday s storm,7,0,train,tornado,Canada,keyword_rule_weak_label
+9673,(ok) severe thunderstorm warning issued august 05 at 8:29pm cdt until august 05 at 9:15pm cdt by nws okwx,19,1,train,tornado,Midwest,keyword_rule_weak_label
+9686,photo of the day: storm chaser photography pod,8,0,train,tornado,"Dindigul,TamilNadu.",keyword_rule_weak_label
+9729,ofcourse just 8 minute b4 tragedy another train had crossed this place n a flash flood caued washing of tracks . .,22,1,test,tragedy,dubai ,keyword_rule_weak_label
+9759,leitchfield ky: bella edward & rosalie need rescue/adoption/local foster home(s)/sponsorships . trapped & . . .,16,2,val,trapped,"PA, USA",keyword_rule_weak_label
+9916,good to hear it's back . . that storm's been given you guys trouble though :( ^sj,17,0,train,trouble,Canada,keyword_rule_weak_label
+9960,so did we have a hurricane tornado tsunami ? someone please tell me what the hell happened nopower,18,0,test,tsunami,,keyword_rule_weak_label
+10001,meet brinco your own personal earthquake snd tsunami early warning beacon .,12,1,train,tsunami,Hawaii,keyword_rule_weak_label
+10058,breaking144 obama declares disaster for typhoon-devastated saipan: obama signs disaster declarat . . . acenewsdesk,15,0,test,typhoon,,keyword_rule_weak_label
+10070,let me report it to u people instead mr . obama just declares cnmi federal disaster area post typhoon soudelor . u guys 2slow2report .,25,0,test,typhoon,phuket thailand,keyword_rule_weak_label
+10077,obama declares disaster for typhoon-devastated saipan international,7,0,train,typhoon,Unites States,keyword_rule_weak_label
+10083,obama declares disaster for typhoon-devastated saipan,6,0,train,typhoon,,keyword_rule_weak_label
+10088,obama declares disaster for typhoon-devastated saipan: obama signs disaster declaration for northern marians after typhoon hits us territory,18,0,train,typhoon,,keyword_rule_weak_label
+10105,abcnews obama declares disaster for typhoon-devastated saipan: obama signs disaster declaration for no . . . world,17,0,train,typhoon,NYC :) Ex- #Islamophobe,keyword_rule_weak_label
+10159,terrifying pov footage captures violent landing from inside a passenger jet during a storm in amsterdam travel,17,0,train,violent%20storm,UK,keyword_rule_weak_label
+10163,rather violent storm . possibility of no stream tonight .,10,0,train,violent%20storm,Yuuko-san's shop,keyword_rule_weak_label
+10164,violent storm causes damage flooding in watertown -,8,0,train,violent%20storm,"Watertown, Mass.",keyword_rule_weak_label
+10168,thunder pounds north goes black a deep bruise on the sky's chest wind cries its pain . a summer storm has a tough life short violent .,27,0,train,violent%20storm,Toronto,keyword_rule_weak_label
+10172,storm batters auckland and northland: a violent overnight storm has battered auckland and northland uprooting . . .,18,0,val,violent%20storm,,keyword_rule_weak_label
+10173,violent forces radio: now playing agony - storm of the apocalypse tunein player @,14,0,train,violent%20storm,Worldwide,keyword_rule_weak_label
+10174,': jupiter's great red spot is a violent storm larger than the entire earth .,15,0,val,violent%20storm,,keyword_rule_weak_label
+10175,after a violent afternoon storm more severe weather heads for chicago tonight . details ---->,15,0,test,violent%20storm,"Chicago, IL",keyword_rule_weak_label
+10176,jupiter's great red spot is a violent storm larger than the entire earth .,14,0,test,violent%20storm,Milky Way galaxy ,keyword_rule_weak_label
+10179,violent forces radio: now playing acid storm - scourgue of the gods tunein player @,15,0,train,violent%20storm,Worldwide,keyword_rule_weak_label
+10182,u . s . pacific command . i can see it ! they gave their all in the peace unity festival it disappears when freedom a violent storm hit sea,30,0,train,violent%20storm,us,keyword_rule_weak_label
+10183,the storm . a violent swell of emotions then nothing .,11,0,train,violent%20storm,??? ???? ?f glory. ?,keyword_rule_weak_label
+10184,desert storm was an unqualified victory a treaty was signed . under clinton the situation only got worse and more violent . tcot,23,0,train,violent%20storm,Your Six,keyword_rule_weak_label
+10186,pov footage captures violent landing from inside plane during storm,10,0,train,violent%20storm,South Africa,keyword_rule_weak_label
+10187,rt ': jupiter's red spot is a violent storm larger than the entire earth:,14,0,train,violent%20storm,Costa Rica,keyword_rule_weak_label
+10189,-- causing the entire sky around their battle to darken to a violent storm as an ungodly powerful bolt of lightning struck at--,23,0,train,violent%20storm,,keyword_rule_weak_label
+10191,dramatic video shows plane landing during violent storm -,9,0,train,violent%20storm,,keyword_rule_weak_label
+10192,dramatic video shows plane landing during violent storm,8,0,val,violent%20storm,"ÌÏT: 1.50225,103.742992",keyword_rule_weak_label
+10193,i think that none of us know the impact we have on the lives of those around us . even the slightest stirring can create a violent storm .,29,0,val,violent%20storm,"Newcastle, OK",keyword_rule_weak_label
+10194,pov video captures violent landing at amsterdam airport schiphol during a storm . . .,15,0,train,violent%20storm,United Kingdom,keyword_rule_weak_label
+10195,storm blitzes traverse city disrupts management briefing seminars: a violent summer storm blitzed through tra . . .,18,0,train,violent%20storm,,keyword_rule_weak_label
+10197,this is one violent and belligerent storm . i'm enjoying watching it unfold,13,0,train,violent%20storm,Oshawa/Toronto,keyword_rule_weak_label
+10198,yikes . poor pup . what a weird violent storm .,11,0,train,violent%20storm,"Very SW CA, USA....Draenor",keyword_rule_weak_label
+10199,a brief violent storm swept through the chicago area sunday afternoon leading to one death and an evacuation of lollapalooza and more,22,2,train,violent%20storm,,keyword_rule_weak_label
+10201,storm batters top half of north island: a violent overnight storm has battered the upper north island uprootin . . .,21,0,train,violent%20storm,New Zealand,keyword_rule_weak_label
+10202,slow clap for this pilot . dramatic video shows plane landing during violent storm,14,0,train,violent%20storm,Kenya,keyword_rule_weak_label
+10203,if you were the nws wth a rotating storm w/ a report of a 'huge' / 'massive' / 'violent' tornado what would you do ?,25,0,test,violent%20storm,,keyword_rule_weak_label
+10206,pov video captures violent landing at amsterdam airport schiphol during a storm - daily mail amsterdam news,17,0,val,violent%20storm,Amsterdam & Worldwide,keyword_rule_weak_label
+10207,violent video: ukraine rioters brutally beat police storm local admin building we're all fighting back,15,0,test,violent%20storm,3rd Eye Chakra,keyword_rule_weak_label
+10341,since the chemical-weapons 'red line' warning on 20 august 2012 lcc have confirmed that at least 96355 people have been killed in syria .,24,1,test,weapons,,keyword_rule_weak_label
+10456,climate change cnn weather 'specialist' warning:wild fires rain flooding noting about the sun ?,14,1,train,wild%20fires,planet earth,keyword_rule_weak_label
+10471,full episode: wn 08/02/15: california wild fires force 12000 to evacuate worldnews,12,2,train,wild%20fires,,keyword_rule_weak_label
+10516,wildfire near columbia river town is 50 percent contained firenews wa,11,0,train,wildfire,Washington State,keyword_rule_weak_label
+10550,nema ekiti distributed relief materials to affected victims of rain/windstorm disaster at ode-ekiti in gbonyin lga .,17,0,train,windstorm,"Lagos, Nigeria",keyword_rule_weak_label
+10566,i like the weird ones like rain of mystical or windstorm or ocean waves,14,0,train,windstorm,she/her/your majesty/empress,keyword_rule_weak_label
+10568,nw michigan windstorm (sheer) recovery updates: leelanau & grand traverse - state of emergency 2b extended besafe,17,0,train,windstorm,,keyword_rule_weak_label
+10582,had major windstorm thunder and some rain down here near jackson . . . calm now .,17,0,train,windstorm,Home is where we park it!,keyword_rule_weak_label
+10839,calgary police flood road closures in calgary .,8,0,train,,,keyword_rule_weak_label
+10844,severe weather bulletin no . 5 for: typhoon hannaph (soudelor) tropical cyclone: warning issued at 5:00 pm 06 . . . _,22,1,train,,,keyword_rule_weak_label
+10846,heat wave warning aa ? ayyo dei . just when i plan to visit friends after a year .,19,1,train,,,keyword_rule_weak_label
+10850,nws: flash flood warning continued for shelby county until 08:00 pm wednesday . tnwx,14,1,train,,,keyword_rule_weak_label
+10860,a siren just went off and it wasn't the forney tornado warning ? ?,14,1,train,,,keyword_rule_weak_label
+10864,on the flip side i'm at walmart and there is a bomb and everyone had to evacuate so stay tuned if i blow up or not,26,2,val,,,keyword_rule_weak_label

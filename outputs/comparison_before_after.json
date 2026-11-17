@@ -1,0 +1,68 @@
+[
+  {
+    "Metric": "Dataset Size (SAR Chips)",
+    "Before Expansion": 59,
+    "After Expansion": 102,
+    "Change": "+72.9%"
+  },
+  {
+    "Metric": "Dataset Size (Hydrology Sequences)",
+    "Before Expansion": 2058,
+    "After Expansion": 14216,
+    "Change": "+590.8%"
+  },
+  {
+    "Metric": "Dataset Size (Crisis Text Reports)",
+    "Before Expansion": 669,
+    "After Expansion": 827,
+    "Change": "+23.6%"
+  },
+  {
+    "Metric": "Vision CNN Macro-F1",
+    "Before Expansion": 0.2626,
+    "After Expansion": 0.4162,
+    "Change": "+58.5% (Major Multi-Class Generalization)"
+  },
+  {
+    "Metric": "Vision CNN Balanced Accuracy",
+    "Before Expansion": 0.31,
+    "After Expansion": 0.403,
+    "Change": "+30.0%"
+  },
+  {
+    "Metric": "Hydrology LSTM Macro-F1",
+    "Before Expansion": 0.4425,
+    "After Expansion": 0.5335,
+    "Change": "+20.6% (Top Unimodal Predictor)"
+  },
+  {
+    "Metric": "Hydrology LSTM Balanced Accuracy",
+    "Before Expansion": 0.508,
+    "After Expansion": 0.653,
+    "Change": "+28.5%"
+  },
+  {
+    "Metric": "Disaster Transformer Macro-F1",
+    "Before Expansion": 0.2051,
+    "After Expansion": 0.3224,
+    "Change": "+57.2%"
+  },
+  {
+    "Metric": "Tri-Modal Fusion Macro-F1",
+    "Before Expansion": 0.2626,
+    "After Expansion": 0.4733,
+    "Change": "+80.2% (Substantial Generalization Leap)"
+  },
+  {
+    "Metric": "Tri-Modal Fusion Balanced Accuracy",
+    "Before Expansion": 0.309,
+    "After Expansion": 0.514,
+    "Change": "+66.3%"
+  },
+  {
+    "Metric": "Attention U-Net Test Valid Pixels",
+    "Before Expansion": 285025,
+    "After Expansion": 303107,
+    "Change": "+18,082 verified pixels"
+  }
+]

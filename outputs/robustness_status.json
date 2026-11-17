@@ -1,0 +1,7 @@
+{
+  "status": "MEASURED",
+  "clean_acc": 0.6818,
+  "fgsm_acc": 0.1364,
+  "pgd_acc": 0.0455,
+  "note": "Evaluated against FGSM (eps=0.08) and PGD attacks on held-out test split."
+}

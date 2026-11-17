@@ -1,0 +1,80 @@
+
+# Python virtual environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local backups
+BACKUP/
+BACKUP_*/
+BACKUP*/
+
+# Raw SAR imagery and labels
+data/imagery/s1_hand/
+data/imagery/labels_hand/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.pkl
+*.h5
+*.keras
+
+# Training checkpoints
+outputs/checkpoints/
+
+# Temporary and lock files
+*.tmp
+*.log
+*.lock
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# DisasterAI raw datasets
+data/hydrology/real_river_gauge_telemetry.csv
+data/imagery/s1_hand/
+data/imagery/labels_hand/
+data/text/raw_disaster_tweets.csv
+
+# Keep dataset metadata and split definitions
+# Keep data/imagery/splits/
+# Keep data/imagery/dataset_manifest.csv
+# Keep data/cleaned/cleaning_metadata.json
+
+# DisasterAI generated cleaned datasets
+data/cleaned/hydrology/hydro_sequences.npy
+data/cleaned/hydrology/cleaned_hydro_telemetry.csv
+
+# Processed SAR images and masks
+data/cleaned/imagery/*_s1.npy
+data/cleaned/imagery/*_mask.npy
+
+# Processed text data - review redistribution rights
+data/cleaned/text/cleaned_disaster_reports.csv
+
+# Keep reproducibility metadata
+# data/cleaned/cleaning_metadata.json
+# data/cleaned/imagery/clean_manifest.csv
+# data/cleaned/hydrology/sequence_manifest.csv
+# Disaster reports - retain locally
+data/text/disaster_crisis_reports.csv

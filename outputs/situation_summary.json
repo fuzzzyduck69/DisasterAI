@@ -1,0 +1,41 @@
+{
+  "report_id": "DISASTERAI-SITREP-GHANA_1078550",
+  "generated_at": "2026-11-16 21:22:27 UTC",
+  "primary_threat": "Hydrological Inundation & Riverine Flooding",
+  "assessed_status": "LOW / ROUTINE DRAINAGE WATCH",
+  "assessment_metrics": {
+    "combined_confidence": "52.6%",
+    "epistemic_uncertainty": "0.000 (HIGH CONFIDENCE (Low epistemic dispersion across modalities))",
+    "modality_contributions": {
+      "vision_weight": "33.0%",
+      "hydrology_weight": "33.0%",
+      "text_weight": "1.1%"
+    }
+  },
+  "modality_evidence": {
+    "satellite_sar_vision": {
+      "estimated_flooded_area": "0.5% of surveyed tile",
+      "segmentation_confidence_dice": "0.000",
+      "vision_finding": "MINIMAL: Baseline channel drainage conditions"
+    },
+    "hydrological_telemetry": {
+      "forecasted_river_crest": "18.03 ft",
+      "trend_trajectory": "ELEVATED / CRESTING (Above seasonal flood stage)",
+      "current_stage": "35.86 ft",
+      "flow_rate": "210.0 cfs"
+    },
+    "textual_intelligence": {
+      "incident_dispatch": "ill only dm hotel info because people are flooding my notifications asking me for info",
+      "salient_keywords": []
+    }
+  },
+  "adversarial_robustness_audit": {
+    "input_integrity_check": "MEASURED: see robustness_metrics.json",
+    "perturbation_defense": "Active (Benchmarked against FGSM & PGD gradient attacks)"
+  },
+  "recommended_interventions": [
+    "Maintain baseline automated satellite and hydrological monitoring.",
+    "Log hydrological trends into the regional watershed database.",
+    "No active civil protection evacuation required at this time."
+  ]
+}

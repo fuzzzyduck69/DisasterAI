@@ -1,0 +1,20 @@
+{
+  "input_center": [
+    -0.30629485845565796,
+    -0.276766836643219,
+    0.0,
+    7.570000171661377,
+    683.5
+  ],
+  "input_scale": [
+    0.7468308806419373,
+    0.5405275225639343,
+    0.019999999552965164,
+    90.82999420166016,
+    3226.0
+  ],
+  "target_center_ft": 7.6,
+  "target_scale_ft": 90.81,
+  "target_method": "median_iqr_train_split_only",
+  "input_method": "median_iqr_train_split_only"
+}

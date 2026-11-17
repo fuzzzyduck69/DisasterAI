@@ -1,0 +1,109 @@
+{
+  "train_class_counts": [
+    37,
+    12,
+    12
+  ],
+  "class_weights": [
+    0.41860464215278625,
+    1.290697693824768,
+    1.290697693824768
+  ],
+  "pairing_mode": "severity_stratified_proxy_unverified_event_match",
+  "device": "cpu",
+  "cnn": {
+    "best_val_macro_f1": 0.7769980506822612,
+    "best_epoch": 11
+  },
+  "unet": {
+    "best_val_dice": 0.727903196680177,
+    "best_epoch": 25
+  },
+  "lstm": {
+    "best_val_macro_f1": 0.5708061002178648,
+    "best_epoch": 15
+  },
+  "transformer": {
+    "best_val_macro_f1": 0.6026936026936026,
+    "best_epoch": 9
+  },
+  "fusion": {
+    "best_val_macro_f1": 0.7769980506822612,
+    "best_epoch": 11
+  },
+  "majority_class_baseline": {
+    "Accuracy": 0.7272727272727273,
+    "Balanced Accuracy": 0.3333333333333333,
+    "F1-Score": 0.6124401913875598,
+    "Macro F1": 0.2807017543859649,
+    "Precision": 0.5289256198347108,
+    "Recall": 0.7272727272727273,
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ]
+    ],
+    "true_class_counts": [
+      16,
+      3,
+      3
+    ],
+    "predicted_class_counts": [
+      22,
+      0,
+      0
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.7272727272727273,
+        "recall": 1.0,
+        "f1-score": 0.8421052631578947,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.24242424242424243,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2807017543859649,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.5289256198347108,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.6124401913875598,
+        "support": 22.0
+      }
+    },
+    "majority_class": 0,
+    "majority_class_prevalence": 0.7272727272727273
+  },
+  "test_segmentation": {
+    "dice": 0.647687345724289,
+    "iou": 0.47894792944947645,
+    "valid_pixels": 303107
+  }
+}

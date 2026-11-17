@@ -1,0 +1,17 @@
+{
+  "train": {
+    "sar_chips": 61,
+    "hydrology_sequences": 10013,
+    "crisis_reports": 567
+  },
+  "val": {
+    "sar_chips": 19,
+    "hydrology_sequences": 2101,
+    "crisis_reports": 120
+  },
+  "test": {
+    "sar_chips": 22,
+    "hydrology_sequences": 2102,
+    "crisis_reports": 140
+  }
+}

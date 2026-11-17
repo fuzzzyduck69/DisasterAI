@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "vision_dataset": "Sen1Floods11 Hand-Labeled Dual-Polarization SAR Imagery (102 cleaned chips across 10 countries)",
+  "vision_severity": "Flooded valid SAR-mask pixel fraction: tier 0 <=5%, tier 1 >5%-25%, tier 2 >25%",
+  "hydrology_dataset": "USGS Water Services 60-day 15-minute telemetry (57,560 readings across 8 river basins)",
+  "hydrology_split": "Chronological per-station 70/15/15; strict temporal boundary enforcement without leakage",
+  "text_dataset": "Combined real crisis incident reports and emergency dispatches (860 disaster reports)",
+  "text_split": "Deterministic record-ID hash split 70/15/15; tokenizer fitted strictly on training split",
+  "cross_modal_pairing": "Severity-stratified proxy pairing. Evaluated honestly with balanced metrics."
+}

@@ -1,0 +1,534 @@
+[
+  {
+    "Modality Configuration": "Baseline: Majority-Class Predictor",
+    "Active Modalities": "none",
+    "Accuracy": 0.7273,
+    "Balanced Accuracy": 0.3333,
+    "F1-Score": 0.6124,
+    "Macro F1": 0.2807,
+    "Precision": 0.5289,
+    "Recall": 0.7273,
+    "Hazard Score RMSE": 0.5,
+    "Confusion Matrix": [
+      [
+        16,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ]
+    ],
+    "True Class Counts": [
+      16,
+      3,
+      3
+    ],
+    "Predicted Class Counts": [
+      22,
+      0,
+      0
+    ],
+    "Mean Modality Gates": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Classification Report": {
+      "0": {
+        "precision": 0.7272727272727273,
+        "recall": 1.0,
+        "f1-score": 0.8421052631578947,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.24242424242424243,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2807017543859649,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.5289256198347108,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.6124401913875598,
+        "support": 22.0
+      }
+    }
+  },
+  {
+    "Modality Configuration": "Vision-Only (Custom CNN)",
+    "Active Modalities": "vis",
+    "Accuracy": 0.6818,
+    "Balanced Accuracy": 0.4028,
+    "F1-Score": 0.6625,
+    "Macro F1": 0.3939,
+    "Precision": 0.6444,
+    "Recall": 0.6818,
+    "Hazard Score RMSE": 0.4104,
+    "Confusion Matrix": [
+      [
+        14,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ]
+    ],
+    "True Class Counts": [
+      16,
+      3,
+      3
+    ],
+    "Predicted Class Counts": [
+      17,
+      2,
+      3
+    ],
+    "Mean Modality Gates": [
+      0.6069,
+      0.2301,
+      0.1631
+    ],
+    "Classification Report": {
+      "0": {
+        "precision": 0.8235294117647058,
+        "recall": 0.875,
+        "f1-score": 0.8484848484848485,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.3333333333333333,
+        "support": 3.0
+      },
+      "accuracy": 0.6818181818181818,
+      "macro avg": {
+        "precision": 0.3856209150326797,
+        "recall": 0.40277777777777773,
+        "f1-score": 0.393939393939394,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.6443850267379679,
+        "recall": 0.6818181818181818,
+        "f1-score": 0.662534435261708,
+        "support": 22.0
+      }
+    }
+  },
+  {
+    "Modality Configuration": "Hydrology-Only (Environmental LSTM)",
+    "Active Modalities": "temp",
+    "Accuracy": 0.7273,
+    "Balanced Accuracy": 0.3333,
+    "F1-Score": 0.6124,
+    "Macro F1": 0.2807,
+    "Precision": 0.5289,
+    "Recall": 0.7273,
+    "Hazard Score RMSE": 0.4397,
+    "Confusion Matrix": [
+      [
+        16,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ]
+    ],
+    "True Class Counts": [
+      16,
+      3,
+      3
+    ],
+    "Predicted Class Counts": [
+      22,
+      0,
+      0
+    ],
+    "Mean Modality Gates": [
+      0.6641,
+      0.1757,
+      0.1601
+    ],
+    "Classification Report": {
+      "0": {
+        "precision": 0.7272727272727273,
+        "recall": 1.0,
+        "f1-score": 0.8421052631578947,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.24242424242424243,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2807017543859649,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.5289256198347108,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.6124401913875598,
+        "support": 22.0
+      }
+    }
+  },
+  {
+    "Modality Configuration": "Text-Only (Disaster Transformer)",
+    "Active Modalities": "text",
+    "Accuracy": 0.7273,
+    "Balanced Accuracy": 0.3333,
+    "F1-Score": 0.6124,
+    "Macro F1": 0.2807,
+    "Precision": 0.5289,
+    "Recall": 0.7273,
+    "Hazard Score RMSE": 0.4384,
+    "Confusion Matrix": [
+      [
+        16,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ]
+    ],
+    "True Class Counts": [
+      16,
+      3,
+      3
+    ],
+    "Predicted Class Counts": [
+      22,
+      0,
+      0
+    ],
+    "Mean Modality Gates": [
+      0.7251,
+      0.1618,
+      0.1131
+    ],
+    "Classification Report": {
+      "0": {
+        "precision": 0.7272727272727273,
+        "recall": 1.0,
+        "f1-score": 0.8421052631578947,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.24242424242424243,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2807017543859649,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.5289256198347108,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.6124401913875598,
+        "support": 22.0
+      }
+    }
+  },
+  {
+    "Modality Configuration": "Vision + Hydrology",
+    "Active Modalities": "vis+temp",
+    "Accuracy": 0.7273,
+    "Balanced Accuracy": 0.5139,
+    "F1-Score": 0.695,
+    "Macro F1": 0.4733,
+    "Precision": 0.6671,
+    "Recall": 0.7273,
+    "Hazard Score RMSE": 0.3939,
+    "Confusion Matrix": [
+      [
+        14,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "True Class Counts": [
+      16,
+      3,
+      3
+    ],
+    "Predicted Class Counts": [
+      17,
+      1,
+      4
+    ],
+    "Mean Modality Gates": [
+      0.8609,
+      0.0846,
+      0.0545
+    ],
+    "Classification Report": {
+      "0": {
+        "precision": 0.8235294117647058,
+        "recall": 0.875,
+        "f1-score": 0.8484848484848485,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5714285714285714,
+        "support": 3.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.4411764705882353,
+        "recall": 0.5138888888888888,
+        "f1-score": 0.4733044733044733,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.6671122994652406,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.6950019677292404,
+        "support": 22.0
+      }
+    }
+  },
+  {
+    "Modality Configuration": "Vision + Text",
+    "Active Modalities": "vis+text",
+    "Accuracy": 0.7273,
+    "Balanced Accuracy": 0.5139,
+    "F1-Score": 0.695,
+    "Macro F1": 0.4733,
+    "Precision": 0.6671,
+    "Recall": 0.7273,
+    "Hazard Score RMSE": 0.3932,
+    "Confusion Matrix": [
+      [
+        14,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "True Class Counts": [
+      16,
+      3,
+      3
+    ],
+    "Predicted Class Counts": [
+      17,
+      1,
+      4
+    ],
+    "Mean Modality Gates": [
+      0.8897,
+      0.0741,
+      0.0362
+    ],
+    "Classification Report": {
+      "0": {
+        "precision": 0.8235294117647058,
+        "recall": 0.875,
+        "f1-score": 0.8484848484848485,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5714285714285714,
+        "support": 3.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.4411764705882353,
+        "recall": 0.5138888888888888,
+        "f1-score": 0.4733044733044733,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.6671122994652406,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.6950019677292404,
+        "support": 22.0
+      }
+    }
+  },
+  {
+    "Modality Configuration": "Tri-Modal Fusion (Proposed DisasterAI)",
+    "Active Modalities": "vis+temp+text",
+    "Accuracy": 0.7273,
+    "Balanced Accuracy": 0.5139,
+    "F1-Score": 0.695,
+    "Macro F1": 0.4733,
+    "Precision": 0.6671,
+    "Recall": 0.7273,
+    "Hazard Score RMSE": 0.3891,
+    "Confusion Matrix": [
+      [
+        14,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "True Class Counts": [
+      16,
+      3,
+      3
+    ],
+    "Predicted Class Counts": [
+      17,
+      1,
+      4
+    ],
+    "Mean Modality Gates": [
+      0.9695,
+      0.0212,
+      0.0093
+    ],
+    "Classification Report": {
+      "0": {
+        "precision": 0.8235294117647058,
+        "recall": 0.875,
+        "f1-score": 0.8484848484848485,
+        "support": 16.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5714285714285714,
+        "support": 3.0
+      },
+      "accuracy": 0.7272727272727273,
+      "macro avg": {
+        "precision": 0.4411764705882353,
+        "recall": 0.5138888888888888,
+        "f1-score": 0.4733044733044733,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.6671122994652406,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.6950019677292404,
+        "support": 22.0
+      }
+    }
+  }
+]
